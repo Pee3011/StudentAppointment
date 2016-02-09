@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">StudentAppointment</string>
+    <string name="tasks">Appointment</string>
+    <string name="task_title">Title</string>
+    <string name="new_task">New Appointment</string>
+    <string name="task">Task</string>
+    <string name="save">Save</string>
+    <string name="no_task">No Task</string>
+    <string name="task_content">Content</string>
+    <string name="unsaved_exit_alert">You have unsaved data. Are you sure you want to exit?</string>
+    <string name="title_is_required">Task title is required.</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="contact_person">Contact Person</string>
+    <string name="time_start">Time Start</string>
+    <string name="time_end">Time End</string>
+    <string name="date_start">Date Start</string>
+    <string name="date_end">Date End</string>
+</resources>
