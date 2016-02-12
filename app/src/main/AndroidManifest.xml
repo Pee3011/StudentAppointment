@@ -18,10 +18,12 @@
         </activity>
         <activity android:name=".FormActivity" />
         <activity android:name=".ShowActivity" />
+        <activity android:name=".FormActDefault"/>
 
         <meta-data android:name="AA_DB_NAME" android:value="SA.db" />
         <meta-data android:name="AA_DB_VERSION" android:value="1" />
-        <meta-data android:name="AA_MODELS" android:value="project.ann.pee.studentappointment.Task" />
+        <meta-data android:name="AA_MODELS" android:value="project.ann.pee.studentappointment.Task, project.ann.pee.studentappointment.Act" />
+
     </application>
 
 

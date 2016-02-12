@@ -18,4 +18,7 @@
     <string name="time_end">Time End</string>
     <string name="date_start">Date Start</string>
     <string name="date_end">Date End</string>
+    <string name="actDefult">ชื่อกิจกรรม</string>
+    <string name="new_activity">New activity</string>
+    <string name="edit_activity">Edit activity</string>
 </resources>

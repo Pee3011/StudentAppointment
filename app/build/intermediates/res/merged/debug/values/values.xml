@@ -665,6 +665,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="actDefult">ชื่อกิจกรรม</string>
     <string name="app_name">StudentAppointment</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="are_you_sure">Are you sure?</string>
@@ -680,6 +681,7 @@
     <string name="define_materialize">year;owner</string>
     <string name="delete">Delete</string>
     <string name="edit">Edit</string>
+    <string name="edit_activity">Edit activity</string>
     <string name="edit_task">Edit Task</string>
     <string name="library_AndroidIconics_author">Mike Penz</string>
     <string name="library_AndroidIconics_authorWebsite">http://mikepenz.com/</string>
@@ -738,6 +740,7 @@
     <string name="library_materialize_year">2015</string>
     <string name="material_drawer_close">Close</string>
     <string name="material_drawer_open">Open</string>
+    <string name="new_activity">New activity</string>
     <string name="new_task">New Appointment</string>
     <string name="no_task">No Task</string>
     <string name="save">Save</string>

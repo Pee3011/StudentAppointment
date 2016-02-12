@@ -5,8 +5,10 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.EditText;
 
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
@@ -30,6 +32,15 @@ public class FormActivity extends BaseActivity {
         setContentView(R.layout.activity_form);
         setDrawer(true);
 
+        FloatingActionButton add_title = (FloatingActionButton) findViewById(R.id.add_title);
+        add_title.setImageDrawable(buildDrawable(MaterialDesignIconic.Icon.gmi_plus));
+        add_title.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(FormActivity.this, FormActDefault.class));
+
+            }
+        });
         titleEdit = (EditText) findViewById(R.id.titleEdit);
         contentEdit = (EditText) findViewById(R.id.contentEdit);
         contactEdit = (EditText) findViewById(R.id.contactEdit);
