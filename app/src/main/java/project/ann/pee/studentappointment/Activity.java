@@ -10,5 +10,5 @@ public class Activity extends Model {
 
     @Column(name = "name")
     public String name;
-    
+
 }
