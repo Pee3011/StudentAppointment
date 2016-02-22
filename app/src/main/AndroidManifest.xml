@@ -24,6 +24,7 @@
         <activity android:name=".FormActivity"/>
         <activity android:name=".FormLocationDefault"/>
         <activity android:name=".FormContactDefault"/>
+        <activity android:name=".ActList"/>
 
         <meta-data android:name="AA_DB_NAME" android:value="SA.db" />
         <meta-data android:name="AA_DB_VERSION" android:value="1" />

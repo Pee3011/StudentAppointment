@@ -30,6 +30,7 @@
         <activity android:name="project.ann.pee.studentappointment.FormActivity" />
         <activity android:name="project.ann.pee.studentappointment.FormLocationDefault" />
         <activity android:name="project.ann.pee.studentappointment.FormContactDefault" />
+        <activity android:name="project.ann.pee.studentappointment.ActList" />
 
         <meta-data
             android:name="AA_DB_NAME"

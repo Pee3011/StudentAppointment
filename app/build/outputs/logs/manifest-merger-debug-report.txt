@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:2:1-37:12
 	xmlns:android
 		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -14,7 +14,7 @@ ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment
 		INJECTED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:5:5-33:19
+ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:5:5-34:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:23.1.1] D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
@@ -90,24 +90,28 @@ activity#project.ann.pee.studentappointment.FormContactDefault
 ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:26:9-55
 	android:name
 		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:26:19-53
+activity#project.ann.pee.studentappointment.ActList
+ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:27:9-44
+	android:name
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:27:19-42
 meta-data#AA_DB_NAME
-ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:28:9-70
+ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:29:9-70
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:28:20-45
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:29:20-45
 	android:value
-		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:28:46-67
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:29:46-67
 meta-data#AA_DB_VERSION
-ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:29:9-69
+ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:30:9-69
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:29:20-48
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:30:20-48
 	android:value
-		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:29:49-66
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:30:49-66
 meta-data#AA_MODELS
-ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:30:9-31:104
+ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:31:9-32:104
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:30:20-44
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:31:20-44
 	android:value
-		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:30:9-31:104
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:31:9-32:104
 uses-sdk
 INJECTED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43

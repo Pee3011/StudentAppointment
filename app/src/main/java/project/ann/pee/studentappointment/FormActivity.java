@@ -44,6 +44,31 @@ public class FormActivity extends BaseActivity {
 
             }
         });
+
+        FloatingActionButton add_contact = (FloatingActionButton) findViewById(R.id.add_contact);
+        add_contact.setImageDrawable(buildDrawable(MaterialDesignIconic.Icon.gmi_plus));
+        add_contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(FormActivity.this, FormContactDefault.class));
+
+            }
+        });
+
+        FloatingActionButton add_location = (FloatingActionButton) findViewById(R.id.add_location);
+        add_location.setImageDrawable(buildDrawable(MaterialDesignIconic.Icon.gmi_plus));
+        add_location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(FormActivity.this, FormLocationDefault.class));
+
+            }
+        });
+
+
+
+
+
         titleEdit = (EditText) findViewById(R.id.titleEdit);
         contentEdit = (EditText) findViewById(R.id.contentEdit);
         contactEdit = (EditText) findViewById(R.id.contactEdit);
