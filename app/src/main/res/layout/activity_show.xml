@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text=""
+        android:text="title"
         android:id="@+id/titleView"
         android:layout_below="@+id/toolbar_main"
         android:paddingTop="@dimen/activity_vertical_margin"
@@ -30,7 +30,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="content"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:paddingBottom="@dimen/activity_vertical_margin"
@@ -46,67 +46,87 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text=""
+        android:text="location"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:paddingBottom="16dp"
         android:scrollbars="vertical"
         android:scrollHorizontally="false"
-        android:id="@+id/contactView"
-        android:layout_above="@+id/timeStart"
+        android:id="@+id/location"
+        android:paddingTop="16dp"
+        android:layout_below="@+id/titleView"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="60dp" />
-
+        android:layout_marginTop="24dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:scrollbars="vertical"
-        android:scrollHorizontally="false"
-        android:id="@+id/timeStart"
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=""
+        android:text="timeEnd"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:paddingBottom="16dp"
         android:scrollbars="vertical"
         android:scrollHorizontally="false"
         android:id="@+id/timeEnd"
-        android:layout_alignBaseline="@+id/dateStart"
-        android:layout_alignBottom="@+id/dateStart"
+        android:layout_below="@+id/dateEnd"
         android:layout_alignParentStart="true" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:text="contact"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:scrollbars="vertical"
+    android:scrollHorizontally="false"
+    android:id="@+id/contactView"
+    android:paddingTop="16dp"
+        android:layout_below="@+id/location"
+        android:layout_alignParentStart="true" />
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="timeStart"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:scrollbars="vertical"
         android:scrollHorizontally="false"
-        android:id="@+id/dateStart"
-        android:layout_alignTop="@+id/dateEnd"
+        android:id="@+id/timeStart"
+        android:layout_below="@+id/dateStart"
         android:layout_alignParentStart="true" />
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="dateStart"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:id="@+id/dateStart"
+
+        android:layout_below="@+id/contactView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dateEnd"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
         android:paddingBottom="16dp"
         android:scrollbars="vertical"
         android:scrollHorizontally="false"
         android:id="@+id/dateEnd"
         android:layout_below="@+id/timeStart"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="110dp" />
+        android:layout_alignParentStart="true" />
+
 
 </RelativeLayout>

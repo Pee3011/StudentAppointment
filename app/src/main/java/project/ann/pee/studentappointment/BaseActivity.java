@@ -34,7 +34,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     protected Drawable buildDrawable(IIcon icon) {
-        return new IconicsDrawable(this).icon(icon).color(Color.WHITE).sizeDp(24).paddingDp(4);
+        return new IconicsDrawable(this).icon(icon).color(Color.WHITE).sizeDp(70).paddingDp(4);
     }
 
     protected void addMenuItem(Menu menu, int id, int labelId, Drawable icon) {

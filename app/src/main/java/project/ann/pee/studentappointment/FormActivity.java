@@ -4,14 +4,16 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
+
+
 
 public class FormActivity extends BaseActivity {
 
@@ -25,6 +27,7 @@ public class FormActivity extends BaseActivity {
     private EditText time_EndEdit;
     private EditText date_startEdit;
     private EditText date_endEdit;
+    private EditText location;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,9 +48,10 @@ public class FormActivity extends BaseActivity {
         contentEdit = (EditText) findViewById(R.id.contentEdit);
         contactEdit = (EditText) findViewById(R.id.contactEdit);
         time_StarEdit = (EditText) findViewById(R.id.timeStart);
-        time_EndEdit = (EditText)findViewById(R.id.timeEnd);
+        time_EndEdit = (EditText) findViewById(R.id.timeEnd);
         date_startEdit = (EditText) findViewById(R.id.dateStart);
         date_endEdit = (EditText) findViewById(R.id.dateEnd);
+        location=(EditText)findViewById(R.id.location);
 
         long id = getIntent().getLongExtra("id", 0);
         if (id == 0) {
@@ -63,13 +67,13 @@ public class FormActivity extends BaseActivity {
                 time_EndEdit.setText(task.timeEnd);
                 date_startEdit.setText(task.dateStart);
                 date_endEdit.setText(task.dateEnd);
+                location.setText(task.location);
             } else {
                 finish();
             }
         }
     }
-
-    @Override
+  @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         addMenuItem(menu, MenuItem_SaveID, R.string.save, buildDrawable(MaterialDesignIconic.Icon.gmi_save));
         return true;
@@ -107,16 +111,17 @@ public class FormActivity extends BaseActivity {
 
     private boolean isEdited() {
         if (task == null)
-            return titleEdit.getText().length() > 0 || contentEdit.getText().length() > 0 || contactEdit.getText().length()>0
-                    || time_StarEdit.getText().length()>0 || time_EndEdit.getText().length()>0
-                    || date_startEdit.getText().length()>0
-                    || date_endEdit.getText().length()>0;
+            return titleEdit.getText().length() > 0 || contentEdit.getText().length() > 0 || contactEdit.getText().length() > 0
+                    || time_StarEdit.getText().length() > 0 || time_EndEdit.getText().length() > 0
+                    || date_startEdit.getText().length() > 0
+                    || date_endEdit.getText().length() > 0|| location.getText().length()>0 ;
         else
-            return !task.title.equals(titleEdit.getText().toString()) || !task.content.equals(contentEdit.getText().toString())||
-                    !task.contact.equals(contactEdit.getText().toString())|| !task.timeStart.equals(time_StarEdit.getText().toString())
+            return !task.title.equals(titleEdit.getText().toString()) || !task.content.equals(contentEdit.getText().toString()) ||
+                    !task.contact.equals(contactEdit.getText().toString()) || !task.timeStart.equals(time_StarEdit.getText().toString())
                     || !task.timeEnd.equals(time_EndEdit.getText().toString())
                     || !task.dateStart.equals(date_startEdit.getText().toString())
-                    || !task.dateEnd.equals(date_endEdit.getText().toString());
+                    || !task.dateEnd.equals(date_endEdit.getText().toString())
+                    || !task.location.equals(location.getText().toString());
     }
 
     private void save() {
@@ -126,10 +131,11 @@ public class FormActivity extends BaseActivity {
             task.title = titleEdit.getText().toString();
             task.content = contentEdit.getText().toString();
             task.contact = contactEdit.getText().toString();
-            task.timeStart= time_StarEdit.getText().toString();
+            task.timeStart = time_StarEdit.getText().toString();
             task.timeEnd = time_EndEdit.getText().toString();
             task.dateStart = date_startEdit.getText().toString();
             task.dateEnd = date_endEdit.getText().toString();
+            task.location=location.getText().toString();
             task.saveWithTimestamp();
             setResult(Activity.RESULT_OK, new Intent().putExtra("id", task.getId()));
             this.finish();
@@ -144,5 +150,9 @@ public class FormActivity extends BaseActivity {
             });
             alert.show();
         }
+
+
     }
+
+
 }

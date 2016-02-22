@@ -24,6 +24,7 @@ public class ListActivity extends BaseActivity {
 
     private ArrayList<Task> tasks;
 
+
     private ListView listView;
     private TextView emptyLabel;
 
@@ -90,8 +91,8 @@ public class ListActivity extends BaseActivity {
 
 class TasksAdapter extends ArrayAdapter<Task> {
 
-    public TasksAdapter(Context context, ArrayList<Task> tasks) {
-        super(context, 0, tasks);
+    public TasksAdapter(Context context, ArrayList<Task> acts) {
+        super(context, 0, acts);
     }
 
     @Override

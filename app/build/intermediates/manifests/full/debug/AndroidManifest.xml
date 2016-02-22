@@ -22,9 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="project.ann.pee.studentappointment.FormActivity" />
         <activity android:name="project.ann.pee.studentappointment.ShowActivity" />
         <activity android:name="project.ann.pee.studentappointment.FormActDefault" />
+        <activity android:name="project.ann.pee.studentappointment.DropdownAct" />
+        <activity android:name="project.ann.pee.studentappointment.AndroidSpinnerExampleActivity" />
+        <activity android:name="project.ann.pee.studentappointment.Picker" />
+        <activity android:name="project.ann.pee.studentappointment.FormActivity" />
 
         <meta-data
             android:name="AA_DB_NAME"

@@ -31,9 +31,9 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <color name="colorAccent">#9900ff</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorPrimary">#808080</color>
+    <color name="colorPrimaryDark">#000000</color>
     <color name="colorPrimaryLight">#BBDEFB</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -666,6 +666,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="actDefult">ชื่อกิจกรรม</string>
+    <string name="action_settings">Settings</string>
     <string name="app_name">StudentAppointment</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="are_you_sure">Are you sure?</string>
@@ -738,18 +739,25 @@
     <string name="library_materialize_owner">Mike Penz</string>
     <string name="library_materialize_repositoryLink">https://github.com/mikepenz/Materialize</string>
     <string name="library_materialize_year">2015</string>
+    <string name="location">Location</string>
     <string name="material_drawer_close">Close</string>
     <string name="material_drawer_open">Open</string>
     <string name="new_activity">New activity</string>
     <string name="new_task">New Appointment</string>
     <string name="no_task">No Task</string>
     <string name="save">Save</string>
+    <string name="spinner_title">Spinner</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="task">Task</string>
     <string name="task_content">Content</string>
     <string name="task_title">Title</string>
     <string name="tasks">Appointment</string>
+    <string name="time_current">The Time is:</string>
     <string name="time_end">Time End</string>
+    <string name="time_pick">Pick the time and press save button</string>
+    <string name="time_picker_example">Time Picker Example</string>
+    <string name="time_save">Save</string>
+    <string name="time_selected"/>
     <string name="time_start">Time Start</string>
     <string name="title_is_required">Task title is required.</string>
     <string name="unsaved_exit_alert">You have unsaved data. Are you sure you want to exit?</string>

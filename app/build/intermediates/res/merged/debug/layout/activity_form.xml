@@ -3,10 +3,45 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context="project.ann.pee.studentappointment.FormActivity">
 
     <include android:id="@+id/toolbar_main" layout="@layout/toolbar_main" />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/relativeLayout"
+    android:layout_below="@+id/toolbar_main"
+    android:layout_alignParentStart="true">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/titleEdit"
+        android:hint="@string/task_title"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_title"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_alignBottom="@+id/titleEdit"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
+
 
     <LinearLayout
         android:orientation="vertical"
@@ -16,21 +51,16 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:layout_below="@+id/toolbar_main"
         android:layout_gravity="center_horizontal"
-        android:id="@+id/linearLayout2">
+        android:id="@+id/linearLayout2"
+        android:layout_alignEnd="@+id/add_title"
+        android:layout_below="@+id/relativeLayout">
+
+
 
         <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
+            android:layout_width="269dp"
             android:layout_height="wrap_content">
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:id="@+id/titleEdit"
-                android:layout_gravity="center_horizontal"
-                android:hint="@string/task_title" />
 
         </android.support.design.widget.TextInputLayout>
 
@@ -38,17 +68,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textMultiLine"
-                android:ems="10"
-                android:id="@+id/contentEdit"
-                android:layout_gravity="center_horizontal"
-                android:hint="@string/task_content" />
-
         </android.support.design.widget.TextInputLayout>
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/contentEdit"
+            android:hint="@string/task_content" />
+</android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -61,10 +93,27 @@
                 android:layout_gravity="center_horizontal"
                 android:hint="@string/contact_person"/>
         </android.support.design.widget.TextInputLayout>
+
+
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-        <EditText
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/location"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/location"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textMultiLine"
@@ -76,15 +125,15 @@
             <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textMultiLine"
-                android:ems="10"
-                android:id="@+id/timeStart"
-                android:layout_gravity="center_horizontal"
-                android:hint="@string/time_start"
-                />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:id="@+id/timeStart"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="@string/time_start"
+                    />
         </android.support.design.widget.TextInputLayout>
 
     </android.support.design.widget.TextInputLayout>
@@ -119,14 +168,6 @@
 
 
     </LinearLayout>
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/add_title"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:layout_gravity="right"
 
 
-        android:layout_below="@+id/linearLayout2"
-        android:layout_centerHorizontal="true" />
 </RelativeLayout>

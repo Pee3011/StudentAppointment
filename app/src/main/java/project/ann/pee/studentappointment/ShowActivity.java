@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
 
+import org.w3c.dom.Text;
+
 public class ShowActivity extends BaseActivity {
 
     private Task     task = null;
@@ -21,6 +23,7 @@ public class ShowActivity extends BaseActivity {
     private TextView time_endView;
     private TextView date_startView;
     private TextView date_endView;
+    private TextView location;
     private static final int MenuItem_EditID = 1;
     private static final int MenuItem_DeleteID = 2;
     private static final int EDIT_TASK = 10;
@@ -30,7 +33,7 @@ public class ShowActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show);
         setDrawer(true);
-        setTitle(R.string.task);
+        setTitle(R.string.tasks);
 
         titleView = (TextView) findViewById(R.id.titleView);
         contentView = (TextView) findViewById(R.id.contentView);
@@ -39,6 +42,7 @@ public class ShowActivity extends BaseActivity {
         time_endView = (TextView)findViewById(R.id.timeEnd);
         date_startView = (TextView)findViewById(R.id.dateStart);
         date_endView = (TextView)findViewById(R.id.dateEnd);
+        location=(TextView)findViewById(R.id.location);
 
         long id = getIntent().getLongExtra("id", 0);
         setView(id);
@@ -55,6 +59,8 @@ public class ShowActivity extends BaseActivity {
             time_endView.setText(task.timeEnd);
             date_startView.setText(task.dateStart);
             date_endView.setText(task.dateEnd);
+            location.setText(task.location);
+
         } else {
             finish();
         }
