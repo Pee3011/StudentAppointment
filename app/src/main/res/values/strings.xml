@@ -1,11 +1,15 @@
 <resources>
     <string name="app_name">StudentAppointment</string>
     <string name="tasks">Appointment</string>
+    <string name="act">Activity</string>
     <string name="task_title">Title</string>
     <string name="new_task">New Appointment</string>
     <string name="task">Task</string>
     <string name="save">Save</string>
     <string name="no_task">No Task</string>
+    <string name="no_act">No Activity</string>
+    <string name="no_location">No Location</string>
+    <string name="no_contact">No Contact</string>
     <string name="task_content">Content</string>
     <string name="unsaved_exit_alert">You have unsaved data. Are you sure you want to exit?</string>
     <string name="title_is_required">Task title is required.</string>
@@ -20,11 +24,19 @@
     <string name="date_end">Date End</string>
     <string name="actDefult">ชื่อกิจกรรม</string>
     <string name="new_activity">New activity</string>
+    <string name="new_location">New location</string>
+    <string name="new_contact">New contact</string>
     <string name="edit_activity">Edit activity</string>
+    <string name="edit_location">Edit location</string>
+    <string name="edit_contact">Edit contact</string>
     <string name="spinner_title">Spinner</string>
     <string name="location">Location</string>
-
-
+    <string name="locationDefult">ชื่อสถานที่</string>
+    <string name="firsNameDefult">ชื่อ</string>
+    <string name="lastNameDefult">สกุล</string>
+    <string name="activity_is_required">activity is required.</string>
+    <string name="location_is_required">location is required.</string>
+    <string name="contact_is_required">name is required.</string>
 
 
 

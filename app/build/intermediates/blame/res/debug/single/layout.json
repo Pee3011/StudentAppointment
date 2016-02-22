@@ -48,6 +48,10 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Duedo\\duedo-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\act_list.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\act_list.xml"
+    },
+    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_icon.xml"
     },
@@ -492,6 +496,10 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\location_form.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\location_form.xml"
+    },
+    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Duedo\\duedo-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_toggle.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Duedo\\duedo-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_toggle.xml"
     },
@@ -502,6 +510,10 @@
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Duedo\\duedo-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Duedo\\duedo-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_form.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\contact_form.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Duedo\\duedo-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",

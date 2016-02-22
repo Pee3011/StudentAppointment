@@ -98,7 +98,7 @@ public class FormActDefault extends BaseActivity {
         } else {
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
             alert.setTitle(android.R.string.dialog_alert_title);
-            alert.setMessage(R.string.title_is_required);
+            alert.setMessage(R.string.activity_is_required);
             alert.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
