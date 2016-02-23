@@ -25,6 +25,10 @@
         <activity android:name=".FormLocationDefault"/>
         <activity android:name=".FormContactDefault"/>
         <activity android:name=".ActList"/>
+        <activity android:name=".ShowAct"/>
+        <activity android:name=".LocationList"/>
+        <activity android:name=".ShowLocation"/>
+
 
         <meta-data android:name="AA_DB_NAME" android:value="SA.db" />
         <meta-data android:name="AA_DB_VERSION" android:value="1" />

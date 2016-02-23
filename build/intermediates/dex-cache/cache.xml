@@ -1,3 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\PeerapatNy\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_9ec61cc2fe06dd8fce0f7092cec4976c93a3febd.jar" />
+    </item>
+    <item
+        jar="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_be319f88f1e67a7c41a30805fde231f16d6edbe7.jar" />
+    </item>
+    <item
+        jar="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.5.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dcacf665e5536c0da76732c56bae2ae1e202d5da">
+        <dex dex="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\pre-dexed\debug\com.mikepenz-iconics-core-2.5.4_573d068277ef53c05703e3aa0d1130dbde0ca8f9.jar" />
+    </item>
+    <item
+        jar="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\materialize\0.5.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="25e8af11fff99ad02250f52f2436e25f60cc1bbe">
+        <dex dex="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\pre-dexed\debug\com.mikepenz-materialize-0.5.1_084caa2a9cb5fab9d2bc41d602451588880b6cbb.jar" />
+    </item>
+    <item
+        jar="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\fontawesome-typeface\4.5.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9ec06b192478fcc1acd79f399926c48444c02f86">
+        <dex dex="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\pre-dexed\debug\com.mikepenz-fontawesome-typeface-4.5.0.1_38eb6242d5093968f56dc61636005daf0245109a.jar" />
+    </item>
+    <item
+        jar="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\material-design-iconic-typeface\2.2.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="27bd073c1d188457050a9169e7dfe03ea0271dbc">
+        <dex dex="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\pre-dexed\debug\com.mikepenz-material-design-iconic-typeface-2.2.0.1_fd5f95981f55263d27940f8692209602fb0806ac.jar" />
+    </item>
+    <item
+        jar="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_cba11a9043daa66b19af4a0f641ff0e1471c2bc0.jar" />
+    </item>
+    <item
+        jar="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\4.6.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="25c8422fe5a0acee6cee4f7e52449c2802f6ca19">
+        <dex dex="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\pre-dexed\debug\com.mikepenz-materialdrawer-4.6.4_bfd424a7adfd7fecf7d1e6ecdd8c5d424de15523.jar" />
+    </item>
+    <item
+        jar="C:\Users\PeerapatNy\.gradle\caches\modules-2\files-2.1\com.michaelpardo\activeandroid\3.1.0-SNAPSHOT\4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08\activeandroid-3.1.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08">
+        <dex dex="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\pre-dexed\debug\activeandroid-3.1.0-SNAPSHOT_a696fce276347dd4c73898fb580b253e8766edb8.jar" />
+    </item>
+    <item
+        jar="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_951524a2d92e3cade2004eebbf960fb5373ae086.jar" />
+    </item>
+    <item
+        jar="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_1c587675501b4aca1da578de23451538a4b0d7d4.jar" />
+    </item>
+    <item
+        jar="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.pixplicity.easyprefs\library\1.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d3b394848f31ac12c50e0227af889247943b11b2">
+        <dex dex="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\pre-dexed\debug\com.pixplicity.easyprefs-library-1.8.1_5f951543ecc1887f55551c0c04361939756fcf91.jar" />
+    </item>
+    <item
+        jar="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_bb838fa37ba9a11608eed4f7c8f311ae0caddf1e.jar" />
+    </item>
+
+</items>

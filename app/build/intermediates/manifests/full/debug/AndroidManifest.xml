@@ -31,6 +31,9 @@
         <activity android:name="project.ann.pee.studentappointment.FormLocationDefault" />
         <activity android:name="project.ann.pee.studentappointment.FormContactDefault" />
         <activity android:name="project.ann.pee.studentappointment.ActList" />
+        <activity android:name="project.ann.pee.studentappointment.ShowAct" />
+        <activity android:name="project.ann.pee.studentappointment.LocationList" />
+        <activity android:name="project.ann.pee.studentappointment.ShowLocation" />
 
         <meta-data
             android:name="AA_DB_NAME"

@@ -37,7 +37,15 @@ public class ActList extends BaseActivity {
 
         listView = (ListView) findViewById(R.id.listView);
         emptyLabel = (TextView) findViewById(R.id.emptyLabel);
-
+        FloatingActionButton newFab = (FloatingActionButton) findViewById(R.id.newFab);
+        newFab.setImageDrawable(buildDrawable(MaterialDesignIconic.Icon.gmi_plus));
+        newFab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ActList.this, FormActDefault.class);
+                startActivityForResult(intent, NEW_TASK);
+            }
+        });
 
 
         setView();
@@ -72,7 +80,7 @@ public class ActList extends BaseActivity {
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Intent intent = new Intent(ActList.this, ShowActivity.class);
+                    Intent intent = new Intent(ActList.this, ShowAct.class);
                     intent.putExtra("id", tasks.get(position).getId());
                     startActivityForResult(intent, SHOW_TASK);
                 }

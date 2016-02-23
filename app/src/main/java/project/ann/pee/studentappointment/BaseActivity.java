@@ -33,65 +33,65 @@ public abstract class BaseActivity extends AppCompatActivity {
 
         ActionBar supportActionBar = getSupportActionBar();
         if (supportActionBar != null)
-         if (upEnabled){
-             supportActionBar.setDisplayHomeAsUpEnabled(upEnabled);
+            if (upEnabled){
+                supportActionBar.setDisplayHomeAsUpEnabled(upEnabled);
+            }
+            else {
+                final Intent intent = new Intent(this, ActList.class);
+
+                new DrawerBuilder()
+                        .withActivity(this)
+                        .withToolbar(toolbar_main)
+                        .addDrawerItems(
+                                new PrimaryDrawerItem()
+                                        .withName(R.string.setting_Activity)
+                                        .withIcon(MaterialDesignIconic.Icon.gmi_local_activity)
+                                        .withSelectable(false)
+                                        .withIdentifier(1)
+
+                        ).withSelectedItem(-1)
+
+                        .addDrawerItems(
+                                new PrimaryDrawerItem()
+                                        .withName(R.string.setting_Contact)
+                                        .withIcon(MaterialDesignIconic.Icon.gmi_nature_people)
+                                        .withSelectable(false)
+                                        .withIdentifier(1)
+
+                        ).withSelectedItem(-1)
+
+                        .addDrawerItems(
+                                new PrimaryDrawerItem()
+                                        .withName(R.string.setting_Location)
+                                        .withIcon(MaterialDesignIconic.Icon.gmi_my_location)
+                                        .withSelectable(false)
+                                        .withIdentifier(1)
+
+                        ).withSelectedItem(-1)
+
+                        .addDrawerItems(
+                                new PrimaryDrawerItem()
+                                        .withName(R.string.about_us)
+                                        .withIcon(MaterialDesignIconic.Icon.gmi_apps)
+                                        .withSelectable(false)
+                                        .withIdentifier(1)
+
+                        ).withSelectedItem(-1)
+
+                        .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
+                            @Override
+                            public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
+                                switch (drawerItem.getIdentifier()) {
+                                    case 1:
+                                        startActivityForResult(intent, NEW_TASK);
+                                        break;
+                                }
+                                return false;
+                            }
+                        })
+                        .build();
+            }
     }
-    else {
-        final Intent intent = new Intent(this, ActList.class);
-
-        new DrawerBuilder()
-                .withActivity(this)
-               .withToolbar(toolbar_main)
-                .addDrawerItems(
-                        new PrimaryDrawerItem()
-                                .withName(R.string.setting_Activity)
-                                .withIcon(MaterialDesignIconic.Icon.gmi_local_activity)
-                                .withSelectable(false)
-                                .withIdentifier(1)
-
-                ).withSelectedItem(-1)
-
-                .addDrawerItems(
-                        new PrimaryDrawerItem()
-                                .withName(R.string.setting_Contact)
-                                .withIcon(MaterialDesignIconic.Icon.gmi_nature_people)
-                                .withSelectable(false)
-                                .withIdentifier(1)
-
-                ).withSelectedItem(-1)
-
-                .addDrawerItems(
-                        new PrimaryDrawerItem()
-                                .withName(R.string.setting_Location)
-                                .withIcon(MaterialDesignIconic.Icon.gmi_my_location)
-                                .withSelectable(false)
-                                .withIdentifier(1)
-
-                ).withSelectedItem(-1)
-
-                .addDrawerItems(
-                        new PrimaryDrawerItem()
-                                .withName(R.string.about_us)
-                                .withIcon(MaterialDesignIconic.Icon.gmi_apps)
-                                .withSelectable(false)
-                                .withIdentifier(1)
-
-                ).withSelectedItem(-1)
-
-                .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
-                    @Override
-                    public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
-                        switch (drawerItem.getIdentifier()) {
-                            case 1:
-                                startActivityForResult(intent, NEW_TASK);
-                                break;
-                        }
-                        return false;
-                    }
-                })
-                .build();
-    }
-}
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) onBackPressed();

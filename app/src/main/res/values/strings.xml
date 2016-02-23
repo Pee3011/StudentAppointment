@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">StudentAppointment</string>
     <string name="tasks">Appointment</string>
+    <string name="actshow">Activity</string>
     <string name="act">Activities</string>
+    <string name="locations">Locations</string>
+
     <string name="task_title">Title</string>
     <string name="new_task">New Appointment</string>
     <string name="task">Task</string>

@@ -670,6 +670,7 @@
     <string name="actDefult">ชื่อกิจกรรม</string>
     <string name="action_settings">Settings</string>
     <string name="activity_is_required">activity is required.</string>
+    <string name="actshow">Activity</string>
     <string name="app_name">StudentAppointment</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="are_you_sure">Are you sure?</string>
@@ -750,6 +751,7 @@
     <string name="location">Location</string>
     <string name="locationDefult">ชื่อสถานที่</string>
     <string name="location_is_required">location is required.</string>
+    <string name="locations">Locations</string>
     <string name="material_drawer_close">Close</string>
     <string name="material_drawer_open">Open</string>
     <string name="new_activity">New activity</string>
