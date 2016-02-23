@@ -151,7 +151,7 @@
             <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textMultiLine"
+            android:inputType="date"
             android:ems="10"
             android:id="@+id/dateStart"
             android:layout_gravity="center_horizontal"
@@ -163,7 +163,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textMultiLine"
+                    android:inputType="time"
                     android:ems="10"
                     android:id="@+id/timeStart"
                     android:layout_gravity="center_horizontal"
@@ -178,7 +178,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textMultiLine"
+                android:inputType="date"
                 android:ems="10"
                 android:id="@+id/dateEnd"
                 android:layout_gravity="center_horizontal"

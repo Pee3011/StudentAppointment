@@ -2,20 +2,29 @@ package project.ann.pee.studentappointment;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.DatePickerDialog;
+import android.app.TimePickerDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.text.InputType;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
+import android.view.View.OnClickListener;
+import android.widget.TimePicker;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Locale;
 
 
-
-public class FormActivity extends BaseActivity {
+public class FormActivity extends BaseActivity implements OnClickListener{
 
     private static final int MenuItem_SaveID = 1;
 
@@ -29,11 +38,37 @@ public class FormActivity extends BaseActivity {
     private EditText date_endEdit;
     private EditText location;
 
+    private EditText fromDateEtxt;
+    private EditText toDateEtxt;
+
+    private EditText fromTime;
+    private EditText toTime;
+
+    private int mHour;
+    private int mMinute;
+
+
+    private DatePickerDialog fromDatePickerDialog;
+    private DatePickerDialog toDatePickerDialog;
+
+    private TimePickerDialog fromTimePickerDialog;
+    private TimePickerDialog toTimePickerDialog;
+
+    private SimpleDateFormat dateFormatter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form);
         setDrawer(true);
+
+
+        dateFormatter = new SimpleDateFormat("dd-MM-yyyy", Locale.US);
+
+        findViewsById();
+
+        setDateTimeField();
+
 
         FloatingActionButton add_title = (FloatingActionButton) findViewById(R.id.add_title);
         add_title.setImageDrawable(buildDrawable(MaterialDesignIconic.Icon.gmi_plus));
@@ -149,6 +184,77 @@ public class FormActivity extends BaseActivity {
                     || !task.location.equals(location.getText().toString());
     }
 
+    private void findViewsById(){
+        fromDateEtxt = (EditText) findViewById(R.id.dateStart);
+       fromDateEtxt.setInputType(InputType.TYPE_NULL);
+        fromDateEtxt.requestFocus();
+
+        fromTime=(EditText)findViewById(R.id.timeStart);
+        fromTime.setInputType(InputType.TYPE_NULL);
+        fromTime.requestFocus();
+
+
+        toDateEtxt = (EditText) findViewById(R.id.dateEnd);
+        toDateEtxt.setInputType(InputType.TYPE_NULL);
+
+        toTime=(EditText)findViewById(R.id.timeEnd);
+        toTime.setInputType(InputType.TYPE_NULL);
+    }
+
+    private void setDateTimeField(){
+        fromDateEtxt.setOnClickListener(this);
+        toDateEtxt.setOnClickListener(this);
+
+        fromTime.setOnClickListener(this);
+        toTime.setOnClickListener(this);
+
+        Calendar newCalendar = Calendar.getInstance();
+        mHour = newCalendar.get(Calendar.HOUR_OF_DAY);
+        mMinute=newCalendar.get(Calendar.MINUTE);
+        fromDatePickerDialog = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
+
+            public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                Calendar newDate = Calendar.getInstance();
+                newDate.set(year, monthOfYear, dayOfMonth);
+                fromDateEtxt.setText(dateFormatter.format(newDate.getTime()));
+            }
+
+        },newCalendar.get(Calendar.YEAR), newCalendar.get(Calendar.MONTH), newCalendar.get(Calendar.DAY_OF_MONTH));
+
+        fromTimePickerDialog  =new TimePickerDialog(this
+                , new TimePickerDialog.OnTimeSetListener() {
+            @Override
+            public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+                fromTime.setText(hourOfDay + ":" + minute);
+            }
+        },mHour,mMinute,false);
+
+        toTimePickerDialog  =new TimePickerDialog(this
+                , new TimePickerDialog.OnTimeSetListener() {
+            @Override
+            public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+                fromTime.setText(hourOfDay + ":" + minute);
+            }
+        },mHour,mMinute,false);
+
+
+        toDatePickerDialog = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
+
+            public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                Calendar newDate = Calendar.getInstance();
+                newDate.set(year, monthOfYear, dayOfMonth);
+                toDateEtxt.setText(dateFormatter.format(newDate.getTime()));
+
+            }
+        },newCalendar.get(Calendar.YEAR), newCalendar.get(Calendar.MONTH), newCalendar.get(Calendar.DAY_OF_MONTH));
+
+
+
+
+    }
+
+
+
     private void save() {
         if (titleEdit.getText().length() > 0) {
             if (task == null)
@@ -180,4 +286,23 @@ public class FormActivity extends BaseActivity {
     }
 
 
-}
+    @Override
+    public void onClick(View v) {
+        if (v == fromDateEtxt){
+            fromDatePickerDialog.show();
+
+        }
+        if (v== fromTime){
+            fromTimePickerDialog.show();
+        }
+
+        else if (v == toDateEtxt) {
+            toDatePickerDialog.show();
+        }
+             if (v == toTime){
+                 toTimePickerDialog.show();
+             }
+
+
+        }
+    }
