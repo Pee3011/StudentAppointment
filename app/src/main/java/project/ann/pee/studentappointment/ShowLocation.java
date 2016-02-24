@@ -11,11 +11,9 @@ import android.widget.TextView;
 
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
 
-import org.w3c.dom.Text;
-
 public class ShowLocation extends BaseActivity {
 
-    private LocationTB     locationTB = null;
+    private LocationsTB locationsTB = null;
     private TextView locationView;
 
     private static final int MenuItem_EditID = 1;
@@ -38,9 +36,9 @@ public class ShowLocation extends BaseActivity {
 
     private void setView(long id) {
         if (id > 0)
-            locationTB = LocationTB.load(LocationTB.class, id);
-        if (locationTB != null) {
-            locationView.setText(locationTB.locationName);
+            locationsTB = LocationsTB.load(LocationsTB.class, id);
+        if (locationsTB != null) {
+            locationView.setText(locationsTB.locationName);
 
 
         } else {
@@ -60,7 +58,7 @@ public class ShowLocation extends BaseActivity {
         switch (item.getItemId()) {
             case MenuItem_EditID:
                 Intent intent = new Intent(this, FormActDefault.class);
-                intent.putExtra("id", locationTB.getId());
+                intent.putExtra("id", locationsTB.getId());
                 startActivityForResult(intent, EDIT_TASK);
                 break;
             case MenuItem_DeleteID:
@@ -70,7 +68,7 @@ public class ShowLocation extends BaseActivity {
                 alert.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        locationTB.delete();
+                        locationsTB.delete();
                         setResult(Activity.RESULT_OK, new Intent().putExtra("refreshNeeded", true));
                         finish();
                     }
@@ -93,7 +91,7 @@ public class ShowLocation extends BaseActivity {
             switch (requestCode) {
                 case EDIT_TASK:
                     if (extras != null && extras.getLong("id", 0) > 0) {
-                        setView(locationTB.getId());
+                        setView(locationsTB.getId());
                         setResult(Activity.RESULT_OK, new Intent().putExtra("refreshNeeded", true));
                     }
                     break;

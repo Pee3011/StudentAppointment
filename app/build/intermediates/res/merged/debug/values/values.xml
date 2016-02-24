@@ -675,6 +675,7 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="are_you_sure">Are you sure?</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="contactDetail">Contact Detail</string>
     <string name="contact_is_required">name is required.</string>
     <string name="contact_person">Contact Person</string>
     <string name="date_end">Date End</string>
@@ -772,12 +773,7 @@
     <string name="task_content">Content</string>
     <string name="task_title">Title</string>
     <string name="tasks">Appointment</string>
-    <string name="time_current">The Time is:</string>
     <string name="time_end">Time End</string>
-    <string name="time_pick">Pick the time and press save button</string>
-    <string name="time_picker_example">Time Picker Example</string>
-    <string name="time_save">Save</string>
-    <string name="time_selected"/>
     <string name="time_start">Time Start</string>
     <string name="title_is_required">Task title is required.</string>
     <string name="unsaved_exit_alert">You have unsaved data. Are you sure you want to exit?</string>

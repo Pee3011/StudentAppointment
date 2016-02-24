@@ -74,38 +74,42 @@ activity#project.ann.pee.studentappointment.AndroidSpinnerExampleActivity
 ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:22:9-66
 	android:name
 		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:22:19-64
-activity#project.ann.pee.studentappointment.Picker
-ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:23:9-43
-	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:23:19-41
 activity#project.ann.pee.studentappointment.FormActivity
-ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:24:9-49
+ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:23:9-49
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:24:19-47
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:23:19-47
 activity#project.ann.pee.studentappointment.FormLocationDefault
-ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:25:9-56
+ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:24:9-56
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:25:19-54
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:24:19-54
 activity#project.ann.pee.studentappointment.FormContactDefault
-ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:26:9-55
+ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:25:9-55
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:26:19-53
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:25:19-53
 activity#project.ann.pee.studentappointment.ActList
+ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:26:19-42
+activity#project.ann.pee.studentappointment.ShowAct
 ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:27:9-44
 	android:name
 		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:27:19-42
-activity#project.ann.pee.studentappointment.ShowAct
-ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:28:9-44
-	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:28:19-42
 activity#project.ann.pee.studentappointment.LocationList
+ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:28:9-49
+	android:name
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:28:19-47
+activity#project.ann.pee.studentappointment.ShowLocation
 ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:29:9-49
 	android:name
 		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:29:19-47
-activity#project.ann.pee.studentappointment.ShowLocation
-ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:30:9-49
+activity#project.ann.pee.studentappointment.ShowContact
+ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:30:9-48
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:30:19-47
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:30:19-46
+activity#project.ann.pee.studentappointment.ContactList
+ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:31:9-48
+	android:name
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:31:19-46
 meta-data#AA_DB_NAME
 ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:33:9-70
 	android:name
@@ -119,11 +123,11 @@ ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment
 	android:value
 		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:34:49-66
 meta-data#AA_MODELS
-ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:35:9-36:104
+ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:35:9-36:105
 	android:name
 		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:35:20-44
 	android:value
-		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:35:9-36:104
+		ADDED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml:35:9-36:105
 uses-sdk
 INJECTED from D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Last version\StudentAppointment\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43

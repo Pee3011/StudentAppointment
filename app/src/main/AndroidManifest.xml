@@ -20,7 +20,6 @@
         <activity android:name=".FormActDefault"/>
         <activity android:name=".DropdownAct"/>
         <activity android:name=".AndroidSpinnerExampleActivity"/>
-        <activity android:name=".Picker"/>
         <activity android:name=".FormActivity"/>
         <activity android:name=".FormLocationDefault"/>
         <activity android:name=".FormContactDefault"/>
@@ -28,12 +27,13 @@
         <activity android:name=".ShowAct"/>
         <activity android:name=".LocationList"/>
         <activity android:name=".ShowLocation"/>
-
+        <activity android:name=".ShowContact"/>
+        <activity android:name=".ContactList"/>
 
         <meta-data android:name="AA_DB_NAME" android:value="SA.db" />
         <meta-data android:name="AA_DB_VERSION" android:value="1" />
         <meta-data android:name="AA_MODELS" android:value="project.ann.pee.studentappointment.Task, project.ann.pee.studentappointment.Act,
-        project.ann.pee.studentappointment.LocationTB,project.ann.pee.studentappointment.ContactTB" />
+        project.ann.pee.studentappointment.LocationsTB,project.ann.pee.studentappointment.ContactTB" />
 
     </application>
 

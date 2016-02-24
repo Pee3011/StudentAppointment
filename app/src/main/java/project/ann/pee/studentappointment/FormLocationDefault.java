@@ -4,12 +4,9 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.location.Location;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.EditText;
 
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
@@ -18,7 +15,7 @@ public class FormLocationDefault extends BaseActivity {
 
     private static final int MenuItem_SaveID = 1;
 
-    private LocationTB location= null;
+    private LocationsTB location= null;
     private EditText locationEdit;
 
     @Override
@@ -34,7 +31,7 @@ public class FormLocationDefault extends BaseActivity {
             setTitle(R.string.new_location);
         } else {
             setTitle(R.string.edit_location);
-            location = LocationTB.load(LocationTB.class,id);
+            location = LocationsTB.load(LocationsTB.class, id);
             if (location != null) {
                 locationEdit.setText(location.locationName);
 
@@ -90,7 +87,7 @@ public class FormLocationDefault extends BaseActivity {
     private void save() {
         if (locationEdit.getText().length() > 0) {
             if (location == null)
-                location = new LocationTB();
+                location = new LocationsTB();
             location.locationName = locationEdit.getText().toString();
 
             location.saveWithTimestamp();

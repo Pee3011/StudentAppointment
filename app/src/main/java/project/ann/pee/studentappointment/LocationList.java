@@ -22,7 +22,7 @@ public class LocationList extends BaseActivity {
     private static final int NEW_TASK = 1;
     private static final int SHOW_TASK = 2;
 
-    private ArrayList<LocationTB> tasks;
+    private ArrayList<LocationsTB> tasks;
 
 
     private ListView listView;
@@ -69,7 +69,7 @@ public class LocationList extends BaseActivity {
     }
 
     private void setView() {
-        tasks = new ArrayList<LocationTB>(LocationTB.getAll());
+        tasks = new ArrayList<>(LocationsTB.getAll());
         if (tasks.isEmpty()) {
             listView.setVisibility(View.GONE);
             emptyLabel.setVisibility(View.VISIBLE);
@@ -89,20 +89,20 @@ public class LocationList extends BaseActivity {
     }
 }
 
-class LocationAdapter extends ArrayAdapter<LocationTB> {
+class LocationAdapter extends ArrayAdapter<LocationsTB> {
 
-    public LocationAdapter(Context context, ArrayList<LocationTB> acts) {
+    public LocationAdapter(Context context, ArrayList<LocationsTB> acts) {
         super(context, 0, acts);
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        LocationTB locationTB = getItem(position);
+        LocationsTB locationsTB = getItem(position);
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_list_item_1, parent, false);
         }
         TextView tv = (TextView) convertView.findViewById(android.R.id.text1);
-        tv.setText(locationTB.locationName);
+        tv.setText(locationsTB.locationName);
         return convertView;
     }
 }

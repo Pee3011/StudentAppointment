@@ -21,6 +21,8 @@ import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
 public abstract class BaseActivity extends AppCompatActivity {
     protected static final int NEW_TASK = 1;
+protected static final int NEW=2;
+    protected static final int NEW2=3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,11 +36,12 @@ public abstract class BaseActivity extends AppCompatActivity {
         ActionBar supportActionBar = getSupportActionBar();
         if (supportActionBar != null)
             if (upEnabled){
-                supportActionBar.setDisplayHomeAsUpEnabled(upEnabled);
+                supportActionBar.setDisplayHomeAsUpEnabled(true);
             }
             else {
                 final Intent intent = new Intent(this, ActList.class);
-
+               final Intent intent1= new Intent(this,LocationList.class);
+                final Intent intent2=new Intent(this,ContactList.class);
                 new DrawerBuilder()
                         .withActivity(this)
                         .withToolbar(toolbar_main)
@@ -56,7 +59,7 @@ public abstract class BaseActivity extends AppCompatActivity {
                                         .withName(R.string.setting_Contact)
                                         .withIcon(MaterialDesignIconic.Icon.gmi_nature_people)
                                         .withSelectable(false)
-                                        .withIdentifier(1)
+                                        .withIdentifier(3)
 
                         ).withSelectedItem(-1)
 
@@ -65,7 +68,7 @@ public abstract class BaseActivity extends AppCompatActivity {
                                         .withName(R.string.setting_Location)
                                         .withIcon(MaterialDesignIconic.Icon.gmi_my_location)
                                         .withSelectable(false)
-                                        .withIdentifier(1)
+                                        .withIdentifier(2)
 
                         ).withSelectedItem(-1)
 
@@ -84,6 +87,12 @@ public abstract class BaseActivity extends AppCompatActivity {
                                 switch (drawerItem.getIdentifier()) {
                                     case 1:
                                         startActivityForResult(intent, NEW_TASK);
+                                        break;
+                                    case 2:
+                                        startActivityForResult(intent1, NEW);
+                                        break;
+                                    case 3:
+                                        startActivityForResult(intent2, NEW2);
                                         break;
                                 }
                                 return false;
