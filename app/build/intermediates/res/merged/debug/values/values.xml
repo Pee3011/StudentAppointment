@@ -767,6 +767,7 @@
     <string name="setting_Activity">Activity</string>
     <string name="setting_Contact">Contact</string>
     <string name="setting_Location">Location</string>
+    <string name="setting_home">HOME</string>
     <string name="spinner_title">Spinner</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="task">Task</string>

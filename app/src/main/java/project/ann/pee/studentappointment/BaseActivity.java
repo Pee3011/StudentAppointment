@@ -23,6 +23,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected static final int NEW_TASK = 1;
 protected static final int NEW=2;
     protected static final int NEW2=3;
+    protected static final int HOME=4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,9 +43,19 @@ protected static final int NEW=2;
                 final Intent intent = new Intent(this, ActList.class);
                final Intent intent1= new Intent(this,LocationList.class);
                 final Intent intent2=new Intent(this,ContactList.class);
+                final Intent intent3=new Intent(this,ListActivity.class);
                 new DrawerBuilder()
                         .withActivity(this)
                         .withToolbar(toolbar_main)
+                        .addDrawerItems(
+                                new PrimaryDrawerItem()
+                                        .withName(R.string.setting_home)
+                                        .withIcon(MaterialDesignIconic.Icon.gmi_home)
+                                        .withSelectable(false)
+                                        .withIdentifier(4)
+
+                        ).withSelectedItem(-1)
+
                         .addDrawerItems(
                                 new PrimaryDrawerItem()
                                         .withName(R.string.setting_Activity)
@@ -93,6 +104,9 @@ protected static final int NEW=2;
                                         break;
                                     case 3:
                                         startActivityForResult(intent2, NEW2);
+                                        break;
+                                    case 4:
+                                        startActivityForResult(intent3, HOME);
                                         break;
                                 }
                                 return false;
