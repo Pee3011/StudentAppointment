@@ -6,6 +6,7 @@ import com.activeandroid.annotation.Table;
 import com.activeandroid.query.Select;
 
 import java.sql.Time;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -20,6 +21,11 @@ public class Task extends Model {
 
     @Column(name = "contact")
     public String contact;
+
+    public List<ContactTB>contactTBs(){
+        return getMany(ContactTB.class,"Task");
+    }
+
 
     @Column(name = "location")
     public String location;
@@ -56,5 +62,7 @@ public class Task extends Model {
             createdAt = now;
         save();
     }
+
+
 
 }

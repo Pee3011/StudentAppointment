@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
@@ -69,7 +70,7 @@ public class ListActivity extends BaseActivity {
     }
 
     private void setView() {
-        tasks = new ArrayList<Task>(Task.getAll());
+        tasks = new ArrayList<>(Task.getAll());
         if (tasks.isEmpty()) {
             listView.setVisibility(View.GONE);
             emptyLabel.setVisibility(View.VISIBLE);

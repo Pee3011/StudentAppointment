@@ -4,23 +4,32 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.text.InputType;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
 import android.view.View.OnClickListener;
+import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.TimePicker;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 import java.util.Locale;
 
 
@@ -47,7 +56,7 @@ public class FormActivity extends BaseActivity implements OnClickListener{
     private int mHour;
     private int mMinute;
 
-
+    private ArrayList<ContactTB> contactTBs;
     private DatePickerDialog fromDatePickerDialog;
     private DatePickerDialog toDatePickerDialog;
 
@@ -55,6 +64,9 @@ public class FormActivity extends BaseActivity implements OnClickListener{
     private TimePickerDialog toTimePickerDialog;
 
     private SimpleDateFormat dateFormatter;
+
+    private Spinner spinner;
+    private String string;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,6 +81,7 @@ public class FormActivity extends BaseActivity implements OnClickListener{
 
         setDateTimeField();
 
+        setView();
 
         FloatingActionButton add_title = (FloatingActionButton) findViewById(R.id.add_title);
         add_title.setImageDrawable(buildDrawable(MaterialDesignIconic.Icon.gmi_plus));
@@ -254,6 +267,20 @@ public class FormActivity extends BaseActivity implements OnClickListener{
     }
 
 
+    private void setView() {
+        contactTBs = new ArrayList<>(ContactTB.getAll());
+
+            Spinner sp=(Spinner)findViewById(R.id.spinner);
+            sp.setAdapter(new ContactAdapter(this,contactTBs));
+
+
+
+
+
+
+}
+
+
 
     private void save() {
         if (titleEdit.getText().length() > 0) {
@@ -305,4 +332,24 @@ public class FormActivity extends BaseActivity implements OnClickListener{
 
 
         }
+
+    class ContactAdapter extends ArrayAdapter<ContactTB> {
+
+        public ContactAdapter(Context context, ArrayList<ContactTB> acts) {
+
+            super(context, 0, acts);
+        }
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            ContactTB contactTB = getItem(position);
+            if (convertView == null) {
+                convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_list_item_1, parent, false);
+            }
+            TextView tv = (TextView) convertView.findViewById(android.R.id.text1);
+            tv.setText(contactTB.firstName);
+            return convertView;
+        }
+    }
+
+
     }
