@@ -9,6 +9,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.renderscript.Sampler;
 import android.support.design.widget.FloatingActionButton;
 import android.text.InputType;
 import android.view.LayoutInflater;
@@ -33,7 +34,7 @@ import java.util.List;
 import java.util.Locale;
 
 
-public class FormActivity extends BaseActivity implements OnClickListener{
+public class FormActivity extends BaseActivity implements OnClickListener {
 
     private static final int MenuItem_SaveID = 1;
 
@@ -65,8 +66,11 @@ public class FormActivity extends BaseActivity implements OnClickListener{
 
     private SimpleDateFormat dateFormatter;
 
+
+
+
     private Spinner spinner;
-    private String string;
+    private int string;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -267,19 +271,6 @@ public class FormActivity extends BaseActivity implements OnClickListener{
     }
 
 
-    private void setView() {
-        contactTBs = new ArrayList<>(ContactTB.getAll());
-
-            Spinner sp=(Spinner)findViewById(R.id.spinner);
-            sp.setAdapter(new ContactAdapter(this,contactTBs));
-
-
-
-
-
-
-}
-
 
 
     private void save() {
@@ -333,6 +324,22 @@ public class FormActivity extends BaseActivity implements OnClickListener{
 
         }
 
+
+    private void setView() {
+        contactTBs = new ArrayList<>(ContactTB.getAll());
+
+        final Spinner sp=(Spinner)findViewById(R.id.spinner);
+
+        ArrayAdapter<String> adapter=new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        sp.setAdapter(adapter);
+
+        sp.setAdapter(new ContactAdapter(this, contactTBs));
+
+
+
+    }
+
     class ContactAdapter extends ArrayAdapter<ContactTB> {
 
         public ContactAdapter(Context context, ArrayList<ContactTB> acts) {
@@ -343,9 +350,9 @@ public class FormActivity extends BaseActivity implements OnClickListener{
         public View getView(int position, View convertView, ViewGroup parent) {
             ContactTB contactTB = getItem(position);
             if (convertView == null) {
-                convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_list_item_1, parent, false);
+                convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_spinner_dropdown_item, parent, false);
             }
-            TextView tv = (TextView) convertView.findViewById(android.R.id.text1);
+           TextView tv = (TextView) convertView.findViewById(android.R.id.text1);
             tv.setText(contactTB.firstName);
             return convertView;
         }
