@@ -250,9 +250,12 @@ public class FormActivity extends BaseActivity implements OnClickListener {
                 , new TimePickerDialog.OnTimeSetListener() {
             @Override
             public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
-                fromTime.setText(hourOfDay + ":" + minute);
+                toTime.setText(hourOfDay + ":" + minute);
             }
         },mHour,mMinute,false);
+
+
+
 
 
         toDatePickerDialog = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
