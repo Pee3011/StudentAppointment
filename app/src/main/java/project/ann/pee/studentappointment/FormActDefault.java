@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
 
@@ -25,7 +26,14 @@ public class FormActDefault extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_form);
         setDrawer(true);
-
+        setTb_buttom(true);
+        ImageButton b = (ImageButton) findViewById(R.id.report);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(FormActDefault.this, ListActivity.class));
+            }
+        });
         actEdit = (EditText) findViewById(R.id.actEdit);
 
         long id = getIntent().getLongExtra("id", 0);

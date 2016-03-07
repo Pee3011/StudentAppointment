@@ -20,8 +20,10 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
 public abstract class BaseActivity extends AppCompatActivity {
+
+    private Toolbar mToolBar;
     protected static final int NEW_TASK = 1;
-protected static final int NEW=2;
+    protected static final int NEW=2;
     protected static final int NEW2=3;
     protected static final int HOME=4;
 
@@ -130,4 +132,12 @@ protected static final int NEW=2;
         menuItem.setIcon(icon);
         menuItem.setShowAsActionFlags(MenuItem.SHOW_AS_ACTION_IF_ROOM);
     }
+    protected void setTb_buttom(Boolean upEnabled) {
+        mToolBar = (Toolbar) findViewById(R.id.tb_buttom);
+
+
+
+    }
+
+
 }

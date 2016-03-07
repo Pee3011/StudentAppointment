@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -35,9 +36,19 @@ public class ListActivity extends BaseActivity {
         setContentView(R.layout.activity_list);
         setDrawer(false);
         setTitle(R.string.tasks);
+        setTb_buttom(true);
 
         listView = (ListView) findViewById(R.id.listView);
         emptyLabel = (TextView) findViewById(R.id.emptyLabel);
+
+        ImageButton b = (ImageButton) findViewById(R.id.event);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ListActivity.this, FormActDefault.class));
+            }
+        });
+
 
         FloatingActionButton newFab = (FloatingActionButton) findViewById(R.id.newFab);
         newFab.setImageDrawable(buildDrawable(MaterialDesignIconic.Icon.gmi_plus));

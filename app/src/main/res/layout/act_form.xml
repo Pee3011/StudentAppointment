@@ -7,6 +7,7 @@
     tools:context="project.ann.pee.studentappointment.FormActDefault">
 
     <include android:id="@+id/toolbar_main" layout="@layout/toolbar_main" />
+    <include android:id="@+id/tb_buttom" layout="@layout/toolbar_buttom"/>
 
     <LinearLayout
         android:orientation="vertical"
