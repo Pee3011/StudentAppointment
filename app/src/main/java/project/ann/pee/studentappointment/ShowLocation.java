@@ -57,10 +57,11 @@ public class ShowLocation extends BaseActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case MenuItem_EditID:
-                Intent intent = new Intent(this, FormActDefault.class);
+                Intent intent = new Intent(this, FormLocationDefault.class);
                 intent.putExtra("id", locationsTB.getId());
                 startActivityForResult(intent, EDIT_TASK);
                 break;
+
             case MenuItem_DeleteID:
                 AlertDialog.Builder alert = new AlertDialog.Builder(this);
                 alert.setTitle(android.R.string.dialog_alert_title);

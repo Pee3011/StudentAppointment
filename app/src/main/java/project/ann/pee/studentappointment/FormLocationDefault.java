@@ -12,9 +12,10 @@ import android.widget.EditText;
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
 
 public class FormLocationDefault extends BaseActivity {
+    private LocationsTB locationsTB = null;
 
     private static final int MenuItem_SaveID = 1;
-
+    private static final int MenuItem_DeleteID = 2;
     private LocationsTB location= null;
     private EditText locationEdit;
 
@@ -44,6 +45,7 @@ public class FormLocationDefault extends BaseActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         addMenuItem(menu, MenuItem_SaveID, R.string.save, buildDrawable(MaterialDesignIconic.Icon.gmi_save));
+
         return true;
     }
 
@@ -73,9 +75,12 @@ public class FormLocationDefault extends BaseActivity {
             case MenuItem_SaveID:
                 save();
                 break;
+
+
         }
         return super.onOptionsItemSelected(item);
     }
+
 
     private boolean isEdited() {
         if (location == null)
@@ -105,4 +110,5 @@ public class FormLocationDefault extends BaseActivity {
             alert.show();
         }
     }
+
 }

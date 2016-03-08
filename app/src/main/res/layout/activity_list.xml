@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorbk"
     tools:context="project.ann.pee.studentappointment.ListActivity">
 
     <include android:id="@+id/toolbar_main" layout="@layout/toolbar_main" />
@@ -14,9 +15,12 @@
         android:id="@+id/listView"
         android:scrollbars="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/toolbar_main"
         android:visibility="gone"/>
+
+
+
 
     <TextView
         android:layout_width="wrap_content"

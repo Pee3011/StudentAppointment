@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorbk"
     tools:context="project.ann.pee.studentappointment.ShowActivity">
 
     <include android:id="@+id/toolbar_main" layout="@layout/toolbar_main" />
@@ -75,6 +76,7 @@
             android:id="@+id/contact__name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/primary"
             android:text="Contact :"
             android:layout_alignParentStart="true"
             android:paddingTop="@dimen/activity_horizontal_margin"
@@ -86,6 +88,7 @@
             android:id="@+id/contactView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/primary"
             android:text="contact"
             android:paddingLeft="16dp"
             android:scrollbars="vertical"

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorbk"
     tools:context="project.ann.pee.studentappointment.FormActDefault">
 
     <include android:id="@+id/toolbar_main" layout="@layout/toolbar_main" />

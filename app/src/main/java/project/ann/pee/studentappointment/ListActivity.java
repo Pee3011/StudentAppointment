@@ -12,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.ScrollView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -29,6 +30,7 @@ public class ListActivity extends BaseActivity {
 
     private ListView listView;
     private TextView emptyLabel;
+    private ScrollView scrollView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,12 +42,13 @@ public class ListActivity extends BaseActivity {
 
         listView = (ListView) findViewById(R.id.listView);
         emptyLabel = (TextView) findViewById(R.id.emptyLabel);
+        scrollView = (ScrollView)findViewById(R.id.scrollView);
 
         ImageButton b = (ImageButton) findViewById(R.id.event);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ListActivity.this, FormActDefault.class));
+                startActivity(new Intent(ListActivity.this, Main.class));
             }
         });
 
@@ -111,10 +114,13 @@ class TasksAdapter extends ArrayAdapter<Task> {
     public View getView(int position, View convertView, ViewGroup parent) {
         Task task = getItem(position);
         if (convertView == null) {
-            convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_list_item_1, parent, false);
+            convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_expandable_list_item_2, parent, false);
         }
         TextView tv = (TextView) convertView.findViewById(android.R.id.text1);
         tv.setText(task.title);
+
+        TextView t =(TextView)convertView.findViewById(android.R.id.text2);
+        t.setText(task.dateStart);
         return convertView;
     }
 }
