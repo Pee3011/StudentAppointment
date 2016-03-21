@@ -39,6 +39,7 @@
         <activity android:name="project.ann.pee.studentappointment.ShowContact" />
         <activity android:name="project.ann.pee.studentappointment.ContactList" />
         <activity android:name="project.ann.pee.studentappointment.Main" />
+        <activity android:name="project.ann.pee.studentappointment.LocationForSelect" />
 
         <meta-data
             android:name="AA_DB_NAME"

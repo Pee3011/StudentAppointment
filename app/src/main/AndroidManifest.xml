@@ -17,6 +17,8 @@
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
+
         </activity>
         <activity android:name=".ShowActivity" />
         <activity android:name=".FormActDefault"/>
@@ -32,6 +34,7 @@
         <activity android:name=".ShowContact"/>
         <activity android:name=".ContactList"/>
         <activity android:name=".Main"/>
+        <activity android:name=".LocationForSelect"/>
 
         <meta-data android:name="AA_DB_NAME" android:value="SA.db" />
         <meta-data android:name="AA_DB_VERSION" android:value="1" />

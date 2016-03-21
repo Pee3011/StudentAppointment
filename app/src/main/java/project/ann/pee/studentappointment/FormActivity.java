@@ -18,23 +18,27 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
 import android.view.View.OnClickListener;
+import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.TimePicker;
+import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Locale;
+import android.widget.AdapterView.OnItemSelectedListener;
 
 
-public class FormActivity extends BaseActivity implements OnClickListener {
+public class FormActivity extends BaseActivity implements OnClickListener, OnItemSelectedListener {
 
     private static final int MenuItem_SaveID = 1;
 
@@ -65,12 +69,8 @@ public class FormActivity extends BaseActivity implements OnClickListener {
     private TimePickerDialog toTimePickerDialog;
 
     private SimpleDateFormat dateFormatter;
-
-
-
-
     private Spinner spinner;
-    private int string;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,19 +87,20 @@ public class FormActivity extends BaseActivity implements OnClickListener {
 
         setView();
 
+
         FloatingActionButton add_title = (FloatingActionButton) findViewById(R.id.add_title);
         add_title.setImageDrawable(buildDrawable(MaterialDesignIconic.Icon.gmi_plus));
-        add_title.setOnClickListener(new View.OnClickListener() {
+        add_title.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FormActivity.this, FormActDefault.class));
+                startActivity(new Intent(FormActivity.this, AndroidSpinnerExampleActivity.class));
 
             }
         });
 
         FloatingActionButton add_contact = (FloatingActionButton) findViewById(R.id.add_contact);
         add_contact.setImageDrawable(buildDrawable(MaterialDesignIconic.Icon.gmi_plus));
-        add_contact.setOnClickListener(new View.OnClickListener() {
+        add_contact.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(FormActivity.this, FormContactDefault.class));
@@ -109,7 +110,7 @@ public class FormActivity extends BaseActivity implements OnClickListener {
 
         FloatingActionButton add_location = (FloatingActionButton) findViewById(R.id.add_location);
         add_location.setImageDrawable(buildDrawable(MaterialDesignIconic.Icon.gmi_plus));
-        add_location.setOnClickListener(new View.OnClickListener() {
+        add_location.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(FormActivity.this, FormLocationDefault.class));
@@ -117,10 +118,7 @@ public class FormActivity extends BaseActivity implements OnClickListener {
             }
         });
 
-
-
-
-
+        spinner = (Spinner) findViewById(R.id.spinner);
         titleEdit = (EditText) findViewById(R.id.titleEdit);
         contentEdit = (EditText) findViewById(R.id.contentEdit);
         contactEdit = (EditText) findViewById(R.id.contactEdit);
@@ -128,7 +126,7 @@ public class FormActivity extends BaseActivity implements OnClickListener {
         time_EndEdit = (EditText) findViewById(R.id.timeEnd);
         date_startEdit = (EditText) findViewById(R.id.dateStart);
         date_endEdit = (EditText) findViewById(R.id.dateEnd);
-        location=(EditText)findViewById(R.id.location);
+        location = (EditText) findViewById(R.id.location);
 
         long id = getIntent().getLongExtra("id", 0);
         if (id == 0) {
@@ -150,7 +148,9 @@ public class FormActivity extends BaseActivity implements OnClickListener {
             }
         }
     }
-  @Override
+
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         addMenuItem(menu, MenuItem_SaveID, R.string.save, buildDrawable(MaterialDesignIconic.Icon.gmi_save));
         return true;
@@ -191,7 +191,7 @@ public class FormActivity extends BaseActivity implements OnClickListener {
             return titleEdit.getText().length() > 0 || contentEdit.getText().length() > 0 || contactEdit.getText().length() > 0
                     || time_StarEdit.getText().length() > 0 || time_EndEdit.getText().length() > 0
                     || date_startEdit.getText().length() > 0
-                    || date_endEdit.getText().length() > 0|| location.getText().length()>0 ;
+                    || date_endEdit.getText().length() > 0 || location.getText().length() > 0;
         else
             return !task.title.equals(titleEdit.getText().toString()) || !task.content.equals(contentEdit.getText().toString()) ||
                     !task.contact.equals(contactEdit.getText().toString()) || !task.timeStart.equals(time_StarEdit.getText().toString())
@@ -201,12 +201,12 @@ public class FormActivity extends BaseActivity implements OnClickListener {
                     || !task.location.equals(location.getText().toString());
     }
 
-    private void findViewsById(){
+    private void findViewsById() {
         fromDateEtxt = (EditText) findViewById(R.id.dateStart);
-       fromDateEtxt.setInputType(InputType.TYPE_NULL);
+        fromDateEtxt.setInputType(InputType.TYPE_NULL);
         fromDateEtxt.requestFocus();
 
-        fromTime=(EditText)findViewById(R.id.timeStart);
+        fromTime = (EditText) findViewById(R.id.timeStart);
         fromTime.setInputType(InputType.TYPE_NULL);
         fromTime.requestFocus();
 
@@ -214,11 +214,11 @@ public class FormActivity extends BaseActivity implements OnClickListener {
         toDateEtxt = (EditText) findViewById(R.id.dateEnd);
         toDateEtxt.setInputType(InputType.TYPE_NULL);
 
-        toTime=(EditText)findViewById(R.id.timeEnd);
+        toTime = (EditText) findViewById(R.id.timeEnd);
         toTime.setInputType(InputType.TYPE_NULL);
     }
 
-    private void setDateTimeField(){
+    private void setDateTimeField() {
         fromDateEtxt.setOnClickListener(this);
         toDateEtxt.setOnClickListener(this);
 
@@ -227,7 +227,7 @@ public class FormActivity extends BaseActivity implements OnClickListener {
 
         Calendar newCalendar = Calendar.getInstance();
         mHour = newCalendar.get(Calendar.HOUR_OF_DAY);
-        mMinute=newCalendar.get(Calendar.MINUTE);
+        mMinute = newCalendar.get(Calendar.MINUTE);
         fromDatePickerDialog = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
 
             public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
@@ -236,26 +236,23 @@ public class FormActivity extends BaseActivity implements OnClickListener {
                 fromDateEtxt.setText(dateFormatter.format(newDate.getTime()));
             }
 
-        },newCalendar.get(Calendar.YEAR), newCalendar.get(Calendar.MONTH), newCalendar.get(Calendar.DAY_OF_MONTH));
+        }, newCalendar.get(Calendar.YEAR), newCalendar.get(Calendar.MONTH), newCalendar.get(Calendar.DAY_OF_MONTH));
 
-        fromTimePickerDialog  =new TimePickerDialog(this
+        fromTimePickerDialog = new TimePickerDialog(this
                 , new TimePickerDialog.OnTimeSetListener() {
             @Override
             public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
                 fromTime.setText(hourOfDay + ":" + minute);
             }
-        },mHour,mMinute,false);
+        }, mHour, mMinute, false);
 
-        toTimePickerDialog  =new TimePickerDialog(this
+        toTimePickerDialog = new TimePickerDialog(this
                 , new TimePickerDialog.OnTimeSetListener() {
             @Override
             public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
                 toTime.setText(hourOfDay + ":" + minute);
             }
-        },mHour,mMinute,false);
-
-
-
+        }, mHour, mMinute, false);
 
 
         toDatePickerDialog = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
@@ -266,14 +263,10 @@ public class FormActivity extends BaseActivity implements OnClickListener {
                 toDateEtxt.setText(dateFormatter.format(newDate.getTime()));
 
             }
-        },newCalendar.get(Calendar.YEAR), newCalendar.get(Calendar.MONTH), newCalendar.get(Calendar.DAY_OF_MONTH));
-
-
+        }, newCalendar.get(Calendar.YEAR), newCalendar.get(Calendar.MONTH), newCalendar.get(Calendar.DAY_OF_MONTH));
 
 
     }
-
-
 
 
     private void save() {
@@ -282,12 +275,12 @@ public class FormActivity extends BaseActivity implements OnClickListener {
                 task = new Task();
             task.title = titleEdit.getText().toString();
             task.content = contentEdit.getText().toString();
-            task.contact = contactEdit.getText().toString();
+            task.contact = spinner.getSelectedItem().toString();
             task.timeStart = time_StarEdit.getText().toString();
             task.timeEnd = time_EndEdit.getText().toString();
             task.dateStart = date_startEdit.getText().toString();
             task.dateEnd = date_endEdit.getText().toString();
-            task.location=location.getText().toString();
+            task.location = location.getText().toString();
             task.saveWithTimestamp();
             setResult(Activity.RESULT_OK, new Intent().putExtra("id", task.getId()));
             this.finish();
@@ -309,57 +302,90 @@ public class FormActivity extends BaseActivity implements OnClickListener {
 
     @Override
     public void onClick(View v) {
-        if (v == fromDateEtxt){
+        if (v == fromDateEtxt) {
             fromDatePickerDialog.show();
 
         }
-        if (v== fromTime){
+        if (v == fromTime) {
             fromTimePickerDialog.show();
-        }
-
-        else if (v == toDateEtxt) {
+        } else if (v == toDateEtxt) {
             toDatePickerDialog.show();
         }
-             if (v == toTime){
-                 toTimePickerDialog.show();
-             }
-
-
+        if (v == toTime) {
+            toTimePickerDialog.show();
         }
 
+    }
+        //  private void setView() {
+        // Spinner element
+        //   Spinner sp = (Spinner) findViewById(R.id.spinner);
+        // Spinner click listener
+        //   sp.setOnItemSelectedListener(this);
+        // Spinner Drop down elements
+        //   List<ContactTB> contactTBs = new ArrayList<>(ContactTB.getAll());
+        // Creating adapter for spinner
+        //   ArrayAdapter<ContactTB> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, contactTBs );
+        //   adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        //   sp.setAdapter(adapter);
+        //   sp.setOnItemSelectedListener(this);
+        //  }
 
     private void setView() {
+        Spinner sp = (Spinner) findViewById(R.id.spinner);
+        sp.setOnItemSelectedListener(this);
         contactTBs = new ArrayList<>(ContactTB.getAll());
 
-        final Spinner sp=(Spinner)findViewById(R.id.spinner);
 
-        ArrayAdapter<String> adapter=new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item);
+        sp.setAdapter(new ContactTBAdapter(this, contactTBs));
+        ArrayAdapter<ContactTB> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, contactTBs );
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        sp.setAdapter(adapter);
-
-        sp.setAdapter(new ContactAdapter(this, contactTBs));
-
-
-
     }
 
-    class ContactAdapter extends ArrayAdapter<ContactTB> {
 
-        public ContactAdapter(Context context, ArrayList<ContactTB> acts) {
+    @Override
+    public void onItemSelected (AdapterView < ? > parent, View view,int position, long id){
 
-            super(context, 0, acts);
-        }
-        @Override
-        public View getView(int position, View convertView, ViewGroup parent) {
-            ContactTB contactTB = getItem(position);
-            if (convertView == null) {
-                convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_spinner_dropdown_item, parent, false);
-            }
-           TextView tv = (TextView) convertView.findViewById(android.R.id.text1);
-            tv.setText(contactTB.firstName);
+        // On selecting a spinner item
+
+        //  Showing selected spinner item
+      
+    }
+    public void onNothingSelected(AdapterView<?> arg0) {
+
+    }
+}
+class ContactTBAdapter extends ArrayAdapter<ContactTB>  {
+     public ContactTBAdapter(Context context, ArrayList<ContactTB> contactTBs) {
+        super(context, R.layout.support_simple_spinner_dropdown_item, contactTBs);
+      }
+    @Override
+       public View getDropDownView(int position, View convertView, ViewGroup parent) {
+         ContactTB contactTB = getItem(position);
+           if (convertView == null) {
+               convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_spinner_dropdown_item, parent,false);
+           }
+            TextView sp = (TextView) convertView.findViewById(android.R.id.text1);
+            sp.setText(contactTB.firstName);
+
             return convertView;
         }
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        ContactTB contactTB = getItem(position);
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_spinner_item, parent,false);
+        }
+        TextView sp = (TextView) convertView.findViewById(android.R.id.text1);
+        sp.setText(contactTB.firstName);
+
+        return convertView;
     }
 
+}
 
-    }
+
+
+
+
+
+

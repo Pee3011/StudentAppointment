@@ -36,6 +36,7 @@ public class ActList extends BaseActivity {
         setTitle(R.string.act);
 
         listView = (ListView) findViewById(R.id.listView);
+
         emptyLabel = (TextView) findViewById(R.id.emptyLabel);
         FloatingActionButton newFab = (FloatingActionButton) findViewById(R.id.newFab);
         newFab.setImageDrawable(buildDrawable(MaterialDesignIconic.Icon.gmi_plus));
