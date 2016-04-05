@@ -23,27 +23,6 @@
     android:layout_alignParentStart="true">
 
 
-    <EditText
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:id="@+id/titleEdit"
-        android:hint="@string/task_title"
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true"
-        android:paddingTop="@dimen/activity_horizontal_margin"/>
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/add_title"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_gravity="right"
-        android:paddingTop="@dimen/activity_horizontal_margin"
-        android:layout_alignBottom="@+id/titleEdit"
-        android:layout_toEndOf="@+id/titleEdit" />
-
-
-
 </RelativeLayout>
 
     <RelativeLayout
@@ -57,14 +36,31 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         >
-        <EditText
-            android:layout_width="match_parent"
+        <Spinner
+            android:id="@+id/titleEdit"
+
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:inputType="textMultiLine"
-            android:ems="10"
-            android:id="@+id/contactEdit"
-            android:layout_gravity="center_horizontal"
-            android:hint="@string/contact_person"/>
+            android:prompt="@string/spinner_title"
+            android:layout_below="@+id/relativeLayout3"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/spinner_title"
+            android:layout_below="@+id/relativeLayout3"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:id="@+id/locationEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/spinner_title"
+            android:layout_below="@+id/relativeLayout3"
+            android:layout_alignParentStart="true" />
+
     </android.support.design.widget.TextInputLayout>
 
     </RelativeLayout>
@@ -76,18 +72,7 @@
         android:layout_below="@+id/relativeLayout2"
         android:paddingLeft="@dimen/activity_horizontal_margin">
 
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="250dp"
-            android:layout_height="wrap_content">
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textMultiLine"
-                android:ems="10"
-                android:id="@+id/location"
-                android:layout_gravity="center_horizontal"
-                android:hint="@string/location"/>
-        </android.support.design.widget.TextInputLayout>
+
 
 
     </RelativeLayout>
@@ -209,21 +194,24 @@
         android:id="@+id/add_contact"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_alignTop="@+id/relativeLayout2"
-        android:layout_toEndOf="@+id/relativeLayout2" />
+        android:layout_below="@+id/add_title"
+        android:layout_alignParentEnd="true" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/add_location"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_alignTop="@+id/relativeLayout3"
-        android:layout_toEndOf="@+id/relativeLayout3" />
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignParentEnd="true" />
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:prompt="@string/spinner_title"
-        android:layout_below="@+id/relativeLayout3"
-        android:layout_alignParentStart="true" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_title"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentEnd="true" />
+
+
 </RelativeLayout>

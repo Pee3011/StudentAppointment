@@ -782,7 +782,7 @@
     <string name="tasks">Appointment</string>
     <string name="time_end">Time End</string>
     <string name="time_start">Time Start</string>
-    <string name="title_is_required">Task title is required.</string>
+    <string name="title_is_required">Date is required.</string>
     <string name="unsaved_exit_alert">You have unsaved data. Are you sure you want to exit?</string>
     <string name="video">Video</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

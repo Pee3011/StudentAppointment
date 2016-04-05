@@ -19,11 +19,14 @@ public class Task extends Model {
     @Column(name = "content")
     public String content;
 
-    @Column(name = "contact")
-    public String contact;
+    @Column(name = "Contact",onUpdate = Column.ForeignKeyAction.CASCADE,onDelete = Column.ForeignKeyAction.CASCADE)
+    public long contact;
 
-    public List<ContactTB>contactTBs(){
-        return getMany(ContactTB.class,"Task");
+
+
+    public List<ContactTB> contactTBs(){
+
+        return getMany(ContactTB.class, "fistName");
     }
 
 

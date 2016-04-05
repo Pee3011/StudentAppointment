@@ -40,6 +40,14 @@ public class ContactTB extends Model {
         return new Select().from(ContactTB.class).orderBy("updatedAt DESC").execute();
     }
 
+    public  ContactTB(){
+        super();
+    }
+
+    public List<Task> tasks(){
+        return getMany(Task.class,"Contact");
+
+    }
     public void saveWithTimestamp() {
         Date now = new Date();
         updatedAt = now;

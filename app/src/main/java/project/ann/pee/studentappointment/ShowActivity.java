@@ -16,6 +16,7 @@ import org.w3c.dom.Text;
 public class ShowActivity extends BaseActivity {
 
     private Task     task = null;
+    private ContactTB contactTB;
     private TextView titleView;
     private TextView contentView;
     private TextView contactView;
@@ -51,10 +52,14 @@ public class ShowActivity extends BaseActivity {
     private void setView(long id) {
         if (id > 0)
             task = Task.load(Task.class, id);
+            contactTB=ContactTB.load(ContactTB.class, id);
+     //  if (contactTB!=null){
+        //    contactView.setText(contactTB.firstName);
+   //    }
         if (task != null) {
             titleView.setText(task.title);
             contentView.setText(task.content);
-            contactView.setText(task.contact);
+            contactView.setText((int) task.contact);
             time_startView.setText(task.timeStart);
             time_endView.setText(task.timeEnd);
             date_startView.setText(task.dateStart);
