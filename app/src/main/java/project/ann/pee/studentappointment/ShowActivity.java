@@ -53,9 +53,7 @@ public class ShowActivity extends BaseActivity {
         if (id > 0)
             task = Task.load(Task.class, id);
             contactTB=ContactTB.load(ContactTB.class, id);
-     //  if (contactTB!=null){
-        //    contactView.setText(contactTB.firstName);
-   //    }
+
         if (task != null) {
             titleView.setText(task.title.activityName);
             contentView.setText(task.content);
