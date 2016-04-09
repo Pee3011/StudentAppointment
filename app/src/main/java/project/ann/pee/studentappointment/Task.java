@@ -13,25 +13,34 @@ import java.util.List;
 @Table(name = "Tasks")
 public class Task extends Model {
 
-    @Column(name = "title")
-    public String title;
+    @Column(name = "title",onUpdate = Column.ForeignKeyAction.CASCADE,onDelete = Column.ForeignKeyAction.CASCADE)
+    public Act title;
 
     @Column(name = "content")
     public String content;
 
-    @Column(name = "Contact",onUpdate = Column.ForeignKeyAction.CASCADE,onDelete = Column.ForeignKeyAction.CASCADE)
-    public long contact;
+    @Column(name = "contact",onUpdate = Column.ForeignKeyAction.CASCADE,onDelete = Column.ForeignKeyAction.CASCADE)
+    public ContactTB contact;
 
+    @Column(name = "location",onUpdate = Column.ForeignKeyAction.CASCADE,onDelete = Column.ForeignKeyAction.CASCADE)
+    public LocationsTB location;
+
+    public List<Act> acts(){
+        return getMany(Act.class,"activityName");
+    }
 
 
     public List<ContactTB> contactTBs(){
 
-        return getMany(ContactTB.class, "fistName");
+        return getMany(ContactTB.class, "firstName");
     }
 
 
-    @Column(name = "location")
-    public String location;
+     public List<LocationsTB> locationsTBs(){
+    return getMany(LocationsTB.class,"locationName");
+}
+
+
 
     @Column(name ="timeStart")
     public String timeStart;

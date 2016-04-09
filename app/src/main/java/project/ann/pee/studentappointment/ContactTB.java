@@ -45,7 +45,7 @@ public class ContactTB extends Model {
     }
 
     public List<Task> tasks(){
-        return getMany(Task.class,"Contact");
+        return getMany(Task.class,"contact");
 
     }
     public void saveWithTimestamp() {

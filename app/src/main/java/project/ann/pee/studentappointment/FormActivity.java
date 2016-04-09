@@ -273,14 +273,14 @@ public class FormActivity extends BaseActivity implements OnClickListener {
         if (date_startEdit.getText().length() > 0) {
             if (task == null)
                 task = new Task();
-            task.title = titleEdit.getSelectedItem().toString();
+            task.title = (Act)titleEdit.getSelectedItem();
             task.content = contentEdit.getText().toString();
-            task.contact =  spinner.getSelectedItemId();
+            task.contact =  (ContactTB) spinner.getSelectedItem();
             task.timeStart = time_StarEdit.getText().toString();
             task.timeEnd = time_EndEdit.getText().toString();
             task.dateStart = date_startEdit.getText().toString();
             task.dateEnd = date_endEdit.getText().toString();
-      //      task.location = location.getSelectedItem().toString();
+            task.location = (LocationsTB)location.getSelectedItem();
             task.saveWithTimestamp();
             setResult(Activity.RESULT_OK, new Intent().putExtra("id", task.getId()));
             this.finish();
@@ -458,6 +458,9 @@ public class FormActivity extends BaseActivity implements OnClickListener {
 
         @Override
         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+
+
 
         }
 

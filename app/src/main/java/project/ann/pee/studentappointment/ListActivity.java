@@ -117,7 +117,7 @@ class TasksAdapter extends ArrayAdapter<Task> {
             convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_expandable_list_item_2, parent, false);
         }
         TextView tv = (TextView) convertView.findViewById(android.R.id.text1);
-        tv.setText(task.title);
+        tv.setText(task.title.activityName);
 
         TextView t =(TextView)convertView.findViewById(android.R.id.text2);
         t.setText(task.dateStart);

@@ -57,14 +57,14 @@ public class ShowActivity extends BaseActivity {
         //    contactView.setText(contactTB.firstName);
    //    }
         if (task != null) {
-            titleView.setText(task.title);
+            titleView.setText(task.title.activityName);
             contentView.setText(task.content);
-            contactView.setText((int) task.contact);
+            contactView.setText( task.contact.firstName);
             time_startView.setText(task.timeStart);
             time_endView.setText(task.timeEnd);
             date_startView.setText(task.dateStart);
             date_endView.setText(task.dateEnd);
-            location.setText(task.location);
+            location.setText(task.location.locationName);
 
         } else {
             finish();
