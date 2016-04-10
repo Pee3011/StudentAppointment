@@ -17,6 +17,8 @@ public class ShowActivity extends BaseActivity {
 
     private Task     task = null;
     private ContactTB contactTB;
+    private Status status;
+    private LocationsTB locationsTB;
     private TextView titleView;
     private TextView contentView;
     private TextView contactView;
@@ -25,6 +27,7 @@ public class ShowActivity extends BaseActivity {
     private TextView date_startView;
     private TextView date_endView;
     private TextView location;
+    private TextView statusShow;
     private static final int MenuItem_EditID = 1;
     private static final int MenuItem_DeleteID = 2;
     private static final int EDIT_TASK = 10;
@@ -44,6 +47,7 @@ public class ShowActivity extends BaseActivity {
         date_startView = (TextView)findViewById(R.id.dateStart);
         date_endView = (TextView)findViewById(R.id.dateEnd);
         location=(TextView)findViewById(R.id.location);
+        statusShow=(TextView)findViewById(R.id.statusShow);
 
         long id = getIntent().getLongExtra("id", 0);
         setView(id);
@@ -53,6 +57,9 @@ public class ShowActivity extends BaseActivity {
         if (id > 0)
             task = Task.load(Task.class, id);
             contactTB=ContactTB.load(ContactTB.class, id);
+            locationsTB=LocationsTB.load(LocationsTB.class,id);
+            status=Status.load(Status.class,id);
+
 
         if (task != null) {
             titleView.setText(task.title.activityName);
@@ -63,6 +70,7 @@ public class ShowActivity extends BaseActivity {
             date_startView.setText(task.dateStart);
             date_endView.setText(task.dateEnd);
             location.setText(task.location.locationName);
+            statusShow.setText(task.status.Name);
 
         } else {
             finish();

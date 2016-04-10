@@ -40,6 +40,8 @@
         <activity android:name="project.ann.pee.studentappointment.ContactList" />
         <activity android:name="project.ann.pee.studentappointment.Main" />
         <activity android:name="project.ann.pee.studentappointment.LocationForSelect" />
+        <activity android:name="project.ann.pee.studentappointment.Report1" />
+        <activity android:name="project.ann.pee.studentappointment.FormStatus" />
 
         <meta-data
             android:name="AA_DB_NAME"
@@ -49,7 +51,7 @@
             android:value="1" />
         <meta-data
             android:name="AA_MODELS"
-            android:value="project.ann.pee.studentappointment.Task, project.ann.pee.studentappointment.Act,         project.ann.pee.studentappointment.LocationsTB,project.ann.pee.studentappointment.ContactTB" />
+            android:value="project.ann.pee.studentappointment.Task, project.ann.pee.studentappointment.Act,         project.ann.pee.studentappointment.LocationsTB,project.ann.pee.studentappointment.ContactTB,         project.ann.pee.studentappointment.Status" />
     </application>
 
 </manifest>

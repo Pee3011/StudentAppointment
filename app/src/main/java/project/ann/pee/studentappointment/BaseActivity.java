@@ -26,6 +26,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected static final int NEW=2;
     protected static final int NEW2=3;
     protected static final int HOME=4;
+    protected static final int NEW4=5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +47,7 @@ public abstract class BaseActivity extends AppCompatActivity {
                final Intent intent1= new Intent(this,LocationList.class);
                 final Intent intent2=new Intent(this,ContactList.class);
                 final Intent intent3=new Intent(this,ListActivity.class);
+                final Intent intent4=new Intent(this,FormStatus.class);
                 new DrawerBuilder()
                         .withActivity(this)
                         .withToolbar(toolbar_main)
@@ -90,7 +92,7 @@ public abstract class BaseActivity extends AppCompatActivity {
                                         .withName(R.string.about_us)
                                         .withIcon(MaterialDesignIconic.Icon.gmi_apps)
                                         .withSelectable(false)
-                                        .withIdentifier(1)
+                                        .withIdentifier(5)
 
                         ).withSelectedItem(-1)
 
@@ -109,6 +111,9 @@ public abstract class BaseActivity extends AppCompatActivity {
                                         break;
                                     case 4:
                                         startActivityForResult(intent3, HOME);
+                                        break;
+                                    case 5:
+                                        startActivityForResult(intent4,NEW4);
                                         break;
                                 }
                                 return false;

@@ -45,6 +45,13 @@ public class Task extends Model {
     @Column(name ="timeStart")
     public String timeStart;
 
+    @Column(name = "status", onUpdate = Column.ForeignKeyAction.CASCADE,onDelete = Column.ForeignKeyAction.CASCADE)
+    public Status status;
+
+    public List<Status> statuses(){
+        return getMany(Status.class, "Name");
+    }
+
     @Column(name="timeEnd")
     public String timeEnd;
 
@@ -75,6 +82,11 @@ public class Task extends Model {
         save();
     }
 
-
+    public static int count() {
+        return new Select()
+                .from(Task.class)
+                .where("contact = ? ",1)
+                .count();
+    }
 
 }

@@ -35,11 +35,15 @@
         <activity android:name=".ContactList"/>
         <activity android:name=".Main"/>
         <activity android:name=".LocationForSelect"/>
+        <activity android:name=".Report1"/>
+        <activity android:name=".FormStatus"/>
+
 
         <meta-data android:name="AA_DB_NAME" android:value="SA.db" />
         <meta-data android:name="AA_DB_VERSION" android:value="1" />
         <meta-data android:name="AA_MODELS" android:value="project.ann.pee.studentappointment.Task, project.ann.pee.studentappointment.Act,
-        project.ann.pee.studentappointment.LocationsTB,project.ann.pee.studentappointment.ContactTB" />
+        project.ann.pee.studentappointment.LocationsTB,project.ann.pee.studentappointment.ContactTB,
+        project.ann.pee.studentappointment.Status" />
 
     </application>
 

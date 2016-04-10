@@ -23,7 +23,7 @@
 
 
     <ImageButton
-        android:id="@+id/status"
+        android:id="@+id/chooesstatus"
         android:layout_width="70dp"
         android:layout_height="50dp"
         android:padding="@dimen/activity_vertical_margin"

@@ -53,6 +53,14 @@ public class ListActivity extends BaseActivity {
         });
 
 
+        ImageButton b1 = (ImageButton) findViewById(R.id.report);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ListActivity.this, Report1.class));
+            }
+        });
+
         FloatingActionButton newFab = (FloatingActionButton) findViewById(R.id.newFab);
         newFab.setImageDrawable(buildDrawable(MaterialDesignIconic.Icon.gmi_plus));
         newFab.setOnClickListener(new View.OnClickListener() {

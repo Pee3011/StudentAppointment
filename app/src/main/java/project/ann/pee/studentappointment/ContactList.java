@@ -99,10 +99,14 @@ class ContactAdapter extends ArrayAdapter<ContactTB> {
     public View getView(int position, View convertView, ViewGroup parent) {
         ContactTB contactTB = getItem(position);
         if (convertView == null) {
-            convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_list_item_1, parent, false);
+            convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_expandable_list_item_2, parent, false);
         }
         TextView tv = (TextView) convertView.findViewById(android.R.id.text1);
         tv.setText(contactTB.firstName);
+
+        TextView tv1 = (TextView) convertView.findViewById(android.R.id.text2);
+        tv1.setText(contactTB.lastName);
+
         return convertView;
     }
 }

@@ -694,6 +694,7 @@
     <string name="edit_activity">Edit activity</string>
     <string name="edit_contact">Edit contact</string>
     <string name="edit_location">Edit location</string>
+    <string name="edit_status">Edit status</string>
     <string name="edit_task">Edit Task</string>
     <string name="email">EMail</string>
     <string name="firsNameDefult">ชื่อ</string>
@@ -763,6 +764,7 @@
     <string name="new_activity">New activity</string>
     <string name="new_contact">New contact</string>
     <string name="new_location">New location</string>
+    <string name="new_status">New status</string>
     <string name="new_task">New Appointment</string>
     <string name="no_act">No Activity</string>
     <string name="no_contact">No Contact</string>
@@ -775,6 +777,7 @@
     <string name="setting_Location">Location</string>
     <string name="setting_home">HOME</string>
     <string name="spinner_title">Spinner</string>
+    <string name="status">Your Status</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="task">Task</string>
     <string name="task_content">Content</string>

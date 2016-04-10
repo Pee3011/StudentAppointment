@@ -9,15 +9,15 @@ package com.pixplicity.easyprefs.library;
 public final class R {
 	public static final class string {
 		public static final int define_easypreferences = 0x7f060026;
-		public static final int library_easypreferences_author = 0x7f060040;
-		public static final int library_easypreferences_authorWebsite = 0x7f060041;
-		public static final int library_easypreferences_classPath = 0x7f060042;
-		public static final int library_easypreferences_isOpenSource = 0x7f060043;
-		public static final int library_easypreferences_libraryDescription = 0x7f060044;
-		public static final int library_easypreferences_libraryName = 0x7f060045;
-		public static final int library_easypreferences_libraryVersion = 0x7f060046;
-		public static final int library_easypreferences_libraryWebsite = 0x7f060047;
-		public static final int library_easypreferences_licenseId = 0x7f060048;
-		public static final int library_easypreferences_repositoryLink = 0x7f060049;
+		public static final int library_easypreferences_author = 0x7f060041;
+		public static final int library_easypreferences_authorWebsite = 0x7f060042;
+		public static final int library_easypreferences_classPath = 0x7f060043;
+		public static final int library_easypreferences_isOpenSource = 0x7f060044;
+		public static final int library_easypreferences_libraryDescription = 0x7f060045;
+		public static final int library_easypreferences_libraryName = 0x7f060046;
+		public static final int library_easypreferences_libraryVersion = 0x7f060047;
+		public static final int library_easypreferences_libraryWebsite = 0x7f060048;
+		public static final int library_easypreferences_licenseId = 0x7f060049;
+		public static final int library_easypreferences_repositoryLink = 0x7f06004a;
 	}
 }

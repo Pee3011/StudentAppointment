@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:2:1-47:12
+ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:2:1-51:12
 	xmlns:android
 		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -14,7 +14,7 @@ ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\Stu
 		INJECTED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:5:5-44:19
+ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:5:5-48:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
@@ -124,24 +124,32 @@ activity#project.ann.pee.studentappointment.LocationForSelect
 ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:37:9-54
 	android:name
 		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:37:19-52
+activity#project.ann.pee.studentappointment.Report1
+ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:38:9-44
+	android:name
+		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:38:19-42
+activity#project.ann.pee.studentappointment.FormStatus
+ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:39:9-47
+	android:name
+		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:39:19-45
 meta-data#AA_DB_NAME
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:39:9-70
+ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:42:9-70
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:39:20-45
+		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:42:20-45
 	android:value
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:39:46-67
+		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:42:46-67
 meta-data#AA_DB_VERSION
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:40:9-69
+ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:43:9-69
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:40:20-48
+		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:43:20-48
 	android:value
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:40:49-66
+		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:43:49-66
 meta-data#AA_MODELS
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:41:9-42:105
+ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:44:9-46:55
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:41:20-44
+		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:44:20-44
 	android:value
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:41:9-42:105
+		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:44:9-46:55
 uses-sdk
 INJECTED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43

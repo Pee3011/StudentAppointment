@@ -197,6 +197,20 @@
         android:layout_toEndOf="@+id/dateEnd_name" />
 
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:scrollbars="vertical"
+            android:scrollHorizontally="false"
+            android:id="@+id/statusShow"
+            android:layout_below="@+id/timeEnd"
+            android:layout_toEndOf="@+id/dateEnd_name" />
+
 </RelativeLayout>
 
 </RelativeLayout>
