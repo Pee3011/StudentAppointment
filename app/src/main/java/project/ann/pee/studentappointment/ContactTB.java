@@ -24,6 +24,8 @@ public class ContactTB extends Model {
     @Column(name="firstName")
     public String firstName;
 
+
+
     @Column(name="lastName")
     public String lastName;
 
@@ -37,7 +39,7 @@ public class ContactTB extends Model {
     public Date updatedAt = null;
 
     public static List<ContactTB> getAll() {
-        return new Select().from(ContactTB.class).orderBy("updatedAt DESC").execute();
+        return new Select().from(ContactTB.class).execute();
     }
 
     public  ContactTB(){

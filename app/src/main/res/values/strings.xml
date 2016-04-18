@@ -9,6 +9,7 @@
     <string name="new_task">New Appointment</string>
     <string name="task">Task</string>
     <string name="save">Save</string>
+    <string name="refresh">Refresh</string>
     <string name="no_task">No Appointment</string>
     <string name="no_act">No Activity</string>
     <string name="no_location">No Location</string>

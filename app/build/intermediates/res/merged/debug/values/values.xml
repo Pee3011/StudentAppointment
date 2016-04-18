@@ -771,6 +771,7 @@
     <string name="no_location">No Location</string>
     <string name="no_task">No Appointment</string>
     <string name="phone">Phone</string>
+    <string name="refresh">Refresh</string>
     <string name="save">Save</string>
     <string name="setting_Activity">Activity</string>
     <string name="setting_Contact">Contact</string>

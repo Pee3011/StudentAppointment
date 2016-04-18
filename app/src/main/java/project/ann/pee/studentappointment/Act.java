@@ -28,7 +28,7 @@ public class Act extends Model {
     public Date updatedAt = null;
 
     public static List<Act> getAll() {
-        return new Select().from(Act.class).orderBy("updatedAt DESC").execute();
+        return new Select().from(Act.class).execute();
     }
 
     public void saveWithTimestamp() {

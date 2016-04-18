@@ -1,187 +1,187 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:2:1-51:12
 	xmlns:android
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:2:11-69
 	package
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:3:5-49
-		INJECTED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from D:\StudentAppointment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudentAppointment\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudentAppointment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudentAppointment\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudentAppointment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudentAppointment\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:5:5-48:19
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\material-design-iconic-typeface\2.2.0.1\AndroidManifest.xml:27:5-20
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:5:5-48:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\material-design-iconic-typeface\2.2.0.1\AndroidManifest.xml:27:5-20
 	android:supportsRtl
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:9:9-41
 	android:allowBackup
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:7:9-35
 	android:icon
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:8:9-40
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:8:9-40
 	android:theme
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:11:9-40
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:6:9-54
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:6:9-54
 activity#project.ann.pee.studentappointment.ListActivity
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:12:9-22:20
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:12:9-22:20
 	android:label
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:13:13-45
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:13:13-45
 	android:uiOptions
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:14:13-57
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:14:13-57
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:16:17-68
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:16:17-68
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:18:17-76
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:18:17-76
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:18:27-74
 activity#project.ann.pee.studentappointment.ShowActivity
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:23:9-50
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:23:9-50
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:23:19-47
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:23:19-47
 activity#project.ann.pee.studentappointment.FormActDefault
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:24:9-51
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:24:9-51
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:24:19-49
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:24:19-49
 activity#project.ann.pee.studentappointment.DropdownAct
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:25:9-48
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:25:9-48
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:25:19-46
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:25:19-46
 activity#project.ann.pee.studentappointment.AndroidSpinnerExampleActivity
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:26:9-66
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:26:9-66
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:26:19-64
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:26:19-64
 activity#project.ann.pee.studentappointment.FormActivity
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:27:9-49
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:27:9-49
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:27:19-47
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:27:19-47
 activity#project.ann.pee.studentappointment.FormLocationDefault
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:28:9-56
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:28:9-56
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:28:19-54
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:28:19-54
 activity#project.ann.pee.studentappointment.FormContactDefault
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:29:9-55
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:29:9-55
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:29:19-53
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:29:19-53
 activity#project.ann.pee.studentappointment.ActList
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:30:9-44
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:30:19-42
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:30:19-42
 activity#project.ann.pee.studentappointment.ShowAct
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:31:9-44
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:31:9-44
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:31:19-42
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:31:19-42
 activity#project.ann.pee.studentappointment.LocationList
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:32:9-49
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:32:9-49
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:32:19-47
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:32:19-47
 activity#project.ann.pee.studentappointment.ShowLocation
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:33:9-49
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:33:9-49
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:33:19-47
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:33:19-47
 activity#project.ann.pee.studentappointment.ShowContact
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:34:9-48
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:34:9-48
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:34:19-46
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:34:19-46
 activity#project.ann.pee.studentappointment.ContactList
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:35:9-48
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:35:9-48
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:35:19-46
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:35:19-46
 activity#project.ann.pee.studentappointment.Main
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:36:9-41
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:36:9-41
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:36:19-39
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:36:19-39
 activity#project.ann.pee.studentappointment.LocationForSelect
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:37:9-54
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:37:9-54
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:37:19-52
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:37:19-52
 activity#project.ann.pee.studentappointment.Report1
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:38:9-44
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:38:9-44
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:38:19-42
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:38:19-42
 activity#project.ann.pee.studentappointment.FormStatus
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:39:9-47
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:39:9-47
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:39:19-45
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:39:19-45
 meta-data#AA_DB_NAME
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:42:9-70
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:42:9-70
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:42:20-45
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:42:20-45
 	android:value
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:42:46-67
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:42:46-67
 meta-data#AA_DB_VERSION
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:43:9-69
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:43:9-69
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:43:20-48
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:43:20-48
 	android:value
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:43:49-66
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:43:49-66
 meta-data#AA_MODELS
-ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:44:9-46:55
+ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:44:9-46:55
 	android:name
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:44:20-44
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:44:20-44
 	android:value
-		ADDED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml:44:9-46:55
+		ADDED from D:\StudentAppointment\app\src\main\AndroidManifest.xml:44:9-46:55
 uses-sdk
-INJECTED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.mikepenz:materialdrawer:4.6.4] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\4.6.4\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.mikepenz:materialize:0.5.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\materialize\0.5.1\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.mikepenz:iconics-core:2.5.4] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.5.4\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.mikepenz:iconics-core:2.5.4] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.5.4\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\material-design-iconic-typeface\2.2.0.1\AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:fontawesome-typeface:4.5.0.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\fontawesome-typeface\4.5.0.1\AndroidManifest.xml:8:5-10:41
-MERGED from [com.pixplicity.easyprefs:library:1.8.1] D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\build\intermediates\exploded-aar\com.pixplicity.easyprefs\library\1.8.1\AndroidManifest.xml:8:5-10:41
+INJECTED from D:\StudentAppointment\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.mikepenz:materialdrawer:4.6.4] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\4.6.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.mikepenz:materialize:0.5.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\materialize\0.5.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.mikepenz:iconics-core:2.5.4] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.5.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.mikepenz:iconics-core:2.5.4] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.5.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\material-design-iconic-typeface\2.2.0.1\AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:fontawesome-typeface:4.5.0.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.mikepenz\fontawesome-typeface\4.5.0.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.pixplicity.easyprefs:library:1.8.1] D:\StudentAppointment\app\build\intermediates\exploded-aar\com.pixplicity.easyprefs\library\1.8.1\AndroidManifest.xml:8:5-10:41
 	android:targetSdkVersion
-		INJECTED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudentAppointment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudentAppointment\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Up to cloud\semester 2_58  Project\Github-master\Github-master\StudentAppointment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudentAppointment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudentAppointment\app\src\main\AndroidManifest.xml

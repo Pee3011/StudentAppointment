@@ -26,7 +26,7 @@ public class LocationsTB extends Model {
     public Date updatedAt = null;
 
     public static List<LocationsTB> getAll() {
-        return new Select().from(LocationsTB.class).orderBy("updatedAt DESC").execute();
+        return new Select().from(LocationsTB.class).execute();
     }
 
     public void saveWithTimestamp() {
