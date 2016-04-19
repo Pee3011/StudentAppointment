@@ -46,6 +46,7 @@ public class FormActivity extends BaseActivity implements OnClickListener {
     private static final int MenuItem_SaveID = 1;
     private static final int Refresh=2;
 
+
     private Task task = null;
     private Spinner titleEdit;
     private EditText contentEdit;
@@ -154,8 +155,8 @@ public class FormActivity extends BaseActivity implements OnClickListener {
                 //location.setText(task.location);
                 int spinnerPosition = task.contact.getId().intValue()-1;
                 spinner.setSelection(spinnerPosition);
-             //   int spinnerPosition = task.contact.getId().intValue();
-              //  spinner.setSelection(spinnerPosition);
+
+
 
                 int spinnerPosition1 = task.title.getId().intValue()-1;
                 titleEdit.setSelection(spinnerPosition1);
@@ -164,12 +165,14 @@ public class FormActivity extends BaseActivity implements OnClickListener {
                 location.setSelection(spinnerPosition2);
 
 
+
+
+
             } else {
                 finish();
             }
         }
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -212,10 +215,8 @@ public class FormActivity extends BaseActivity implements OnClickListener {
     }
 
     private void refresh() {
-        Log.i("clicks", "You Clicked B1");
-        Intent i=new Intent(
-                FormActivity.this,
-                FormActivity.class);
+        Intent i= getIntent();
+               finish();
         startActivity(i);
     }
 
@@ -480,8 +481,8 @@ public class FormActivity extends BaseActivity implements OnClickListener {
             TextView sp = (TextView) convertView.findViewById(android.R.id.text1);
             sp.setText(contactTB.firstName);
 
-           // TextView sp1 = (TextView) convertView.findViewById(android.R.id.text2);
-           // sp1.setText(contactTB.lastName);
+            //TextView sp1 = (TextView) convertView.findViewById(android.R.id.text2);
+            //sp1.setText(contactTB.lastName);
 
             return convertView;
         }

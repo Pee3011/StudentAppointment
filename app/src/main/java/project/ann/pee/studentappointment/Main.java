@@ -1,5 +1,7 @@
 package project.ann.pee.studentappointment;
 
+import android.view.View;
+
 		import java.util.ArrayList;
 		import java.util.Calendar;
 		import java.util.GregorianCalendar;
@@ -25,7 +27,7 @@ package project.ann.pee.studentappointment;
 public class Main extends Activity implements OnClickListener
 {
 	private static final String tag = "Main";
-
+	private Button selectedDayMonthYearButton;
 	private Button currentMonth;
 	private ImageView prevMonth;
 	private ImageView nextMonth;
@@ -62,6 +64,7 @@ public class Main extends Activity implements OnClickListener
 		year = _calendar.get(Calendar.YEAR);
 
 
+
 		prevMonth = (ImageView) this.findViewById(R.id.prevMonth);
 		prevMonth.setOnClickListener(this);
 
@@ -96,7 +99,7 @@ public class Main extends Activity implements OnClickListener
 
 			Log.d(tag, "Before 1 MONTH " + "Month: " + month + " " + "Year: " + year);
 			adapter = new GridCellAdapter(getApplicationContext(), R.id.gridcell, month, year);
-			_calendar.set(year, month, _calendar.get(Calendar.DAY_OF_MONTH));
+			_calendar.set(year, month , _calendar.get(Calendar.DAY_OF_MONTH));
 			currentMonth.setText(_calendar.getTime().toString());
 
 			adapter.notifyDataSetChanged();
@@ -266,7 +269,7 @@ public class Main extends Activity implements OnClickListener
 
 			if (day_color[1].equals("GREY"))
 			{
-				gridcell.setTextColor(Color.BLACK);
+				gridcell.setTextColor(Color.LTGRAY);
 			}
 			if (day_color[1].equals("WHITE"))
 			{
@@ -274,7 +277,7 @@ public class Main extends Activity implements OnClickListener
 			}
 			if (position == currentDayOfMonth)
 			{
-				gridcell.setTextColor(Color.WHITE);
+				gridcell.setTextColor(Color.BLUE);
 			}
 
 			return row;

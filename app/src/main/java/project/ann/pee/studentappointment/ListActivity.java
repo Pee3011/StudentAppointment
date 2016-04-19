@@ -1,11 +1,15 @@
 package project.ann.pee.studentappointment;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -24,7 +28,7 @@ public class ListActivity extends BaseActivity {
 
     private static final int NEW_TASK = 1;
     private static final int SHOW_TASK = 2;
-
+    private static final int Refresh=3;
     private ArrayList<Task> tasks;
 
 
@@ -71,8 +75,31 @@ public class ListActivity extends BaseActivity {
             }
         });
 
+
+
         setView();
     }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        addMenuItem(menu, Refresh, R.string.refresh, buildDrawable(MaterialDesignIconic.Icon.gmi_refresh));
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (Refresh) {
+            case Refresh:
+                Refresh();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void Refresh() {
+        Intent i= getIntent();
+        finish();
+        startActivity(i);
+    }
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -87,6 +114,7 @@ public class ListActivity extends BaseActivity {
                     if (extras != null && extras.getBoolean("refreshNeeded", false))
                         setView();
                     break;
+
             }
         }
     }
