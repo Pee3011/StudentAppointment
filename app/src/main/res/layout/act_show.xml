@@ -26,17 +26,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Activity"
-        android:textSize="25dp"
 
+        android:textColor="@color/primary"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:paddingBottom="20dp"
+        android:paddingBottom="16dp"
         android:paddingTop="@dimen/activity_horizontal_margin"
 
         android:scrollbars="vertical"
         android:scrollHorizontally="false"
         android:id="@+id/actView"
-        android:layout_toEndOf="@+id/timeEnd_name"
-        android:layout_alignBottom="@+id/timeEnd_name" />
+        android:layout_alignBottom="@+id/timeEnd_name"
+        android:layout_toEndOf="@+id/timeEnd_name" />
 
 </RelativeLayout>
