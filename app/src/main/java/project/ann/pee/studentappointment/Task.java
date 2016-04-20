@@ -12,7 +12,7 @@ import java.util.List;
 
 @Table(name = "Tasks")
 public class Task extends Model {
-
+private static  final int INCOMPLETE=1;
     @Column(name = "title",onUpdate = Column.ForeignKeyAction.CASCADE,onDelete = Column.ForeignKeyAction.CASCADE)
     public Act title;
 
@@ -45,12 +45,9 @@ public class Task extends Model {
     @Column(name ="timeStart")
     public String timeStart;
 
-    @Column(name = "status", onUpdate = Column.ForeignKeyAction.CASCADE,onDelete = Column.ForeignKeyAction.CASCADE)
-    public Status status;
+    @Column(name = "status")
+    public String status;
 
-    public List<Status> statuses(){
-        return getMany(Status.class, "Name");
-    }
 
     @Column(name="timeEnd")
     public String timeEnd;
@@ -85,7 +82,7 @@ public class Task extends Model {
     public static int count() {
         return new Select()
                 .from(Task.class)
-                .where("contact = ? ",1)
+                .where("status = ? ",INCOMPLETE)
                 .count();
     }
 

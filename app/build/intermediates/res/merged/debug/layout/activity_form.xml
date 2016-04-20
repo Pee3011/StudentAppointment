@@ -27,53 +27,93 @@
 
     <RelativeLayout
         android:id="@+id/relativeLayout2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:layout_below="@+id/relativeLayout"
-        android:paddingLeft="@dimen/activity_horizontal_margin">
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
 
     <android.support.design.widget.TextInputLayout
-        android:layout_width="250dp"
+        android:layout_width="170dp"
         android:layout_height="wrap_content"
-        >
-        <Spinner
-            android:id="@+id/titleEdit"
-
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:prompt="@string/spinner_title"
-            android:layout_below="@+id/relativeLayout3"
-            android:layout_alignParentStart="true" />
+        android:id="@+id/view"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginStart="10dp">
 
         <Spinner
+                android:id="@+id/titleEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:prompt="@string/spinner_title"
+                android:layout_alignParentStart="true" />
+
+
+       <Spinner
             android:id="@+id/spinner"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:prompt="@string/spinner_title"
-            android:layout_below="@+id/relativeLayout3"
+            android:layout_below="@id/titleEdit"
             android:layout_alignParentStart="true" />
 
         <Spinner
             android:id="@+id/locationEdit"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:prompt="@string/spinner_title"
-            android:layout_below="@+id/relativeLayout3"
+            android:layout_below="@id/spinner"
             android:layout_alignParentStart="true" />
 
     </android.support.design.widget.TextInputLayout>
+        <ImageButton
+            android:id="@+id/add_contact"
+            android:src="@drawable/ic_add_white_18dp"
+            android:background="@color/md_blue_100"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/view"
+            android:layout_marginStart="10dp"/>
 
-    </RelativeLayout>
+       <ImageButton
+            android:id="@+id/add_location"
+           android:src="@drawable/ic_add_white_18dp"
+          android:background="@color/md_blue_100"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+           android:layout_alignParentBottom="true"
+           android:layout_toEndOf="@+id/view"
+           android:layout_marginStart="10dp"/>
 
-    <RelativeLayout
-        android:id="@+id/relativeLayout3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/relativeLayout2"
-        android:paddingLeft="@dimen/activity_horizontal_margin">
+       <ImageButton
+            android:id="@+id/add_title"
+            android:src="@drawable/ic_add_white_18dp"
+            android:background="@color/md_blue_100"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@+id/view"
+           android:layout_marginStart="10dp"/>
 
-
-
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/FormAct"
+            android:layout_alignBottom="@+id/add_title"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView2" />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/FormContact"
+            android:layout_alignBottom="@+id/add_contact"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="@string/FormLocation"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
 
     </RelativeLayout>
 
@@ -81,14 +121,13 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingBottom="0dp"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingTop="0dp"
         android:layout_gravity="center_horizontal"
         android:id="@+id/linearLayout2"
-        android:layout_alignEnd="@+id/add_title"
-        android:layout_below="@+id/relativeLayout3">
+        android:layout_below="@+id/relativeLayout2">
 
 
 
@@ -106,13 +145,6 @@
 
         </android.support.design.widget.TextInputLayout>
 
-
-
-
-
-
-
-
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -126,11 +158,7 @@
                 />
         </android.support.design.widget.TextInputLayout>
 
-
-
-
-
-        <android.support.design.widget.TextInputLayout
+       <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -186,39 +214,34 @@
                 />
         </android.support.design.widget.TextInputLayout>
 
-        <Spinner
-            android:id="@+id/status"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:prompt="@string/spinner_title"
-            android:layout_below="@+id/relativeLayout3"
-            android:layout_alignParentStart="true" />
+
+      <RelativeLayout
+          android:id="@+id/spinStatus"
+          android:layout_below="@id/timeEnd"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/FormStatus"
+              android:layout_centerVertical="true"
+              android:layout_alignParentStart="true"
+              android:id="@+id/textView" />
+
+          <Spinner
+              android:id="@+id/status"
+              android:layout_width="165dp"
+              android:layout_height="30dp"
+              android:prompt="@string/spinner_title"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginStart="24dp"
+              android:layout_alignParentTop="true"
+              android:layout_toEndOf="@+id/textView" />
+      </RelativeLayout>
+
 
 
     </LinearLayout>
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/add_contact"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_below="@+id/add_title"
-        android:layout_alignParentEnd="true" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/add_location"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_above="@+id/linearLayout2"
-        android:layout_alignParentEnd="true" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/add_title"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_gravity="right"
-        android:paddingTop="@dimen/activity_horizontal_margin"
-        android:layout_below="@+id/relativeLayout"
-        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>

@@ -59,9 +59,20 @@
     <string name="video">Video</string>
     <string name="email">EMail</string>
 
+    <!-- Form Activity page-->
+    <string name="FormAct">Activity :</string>
+    <string name="FormContact">Contact :</string>
+    <string name="FormLocation">Location :</string>
+    <string name="FormStatus">Status :</string>
 
 
 
     <string name="action_settings">Settings</string>
+
+    <string-array name="status">
+        <item>INCOMPLETE</item>
+        <item>CANCEL</item>
+        <item>COMPLETE</item>
+    </string-array>
 
 </resources>

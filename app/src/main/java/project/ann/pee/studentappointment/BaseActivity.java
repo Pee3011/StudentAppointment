@@ -27,6 +27,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected static final int NEW2=3;
     protected static final int HOME=4;
     protected static final int NEW4=5;
+    protected static final int NEW6=6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +49,7 @@ public abstract class BaseActivity extends AppCompatActivity {
                 final Intent intent2=new Intent(this,ContactList.class);
                 final Intent intent3=new Intent(this,ListActivity.class);
                 final Intent intent4=new Intent(this,FormStatus.class);
+                final Intent intent5=new Intent(this,Report1.class);
                 new DrawerBuilder()
                         .withActivity(this)
                         .withToolbar(toolbar_main)
@@ -89,12 +91,21 @@ public abstract class BaseActivity extends AppCompatActivity {
 
                         .addDrawerItems(
                                 new PrimaryDrawerItem()
+                                        .withName("Report appointment status")
+                                        .withIcon(MaterialDesignIconic.Icon.gmi_reader)
+                                        .withSelectable(false)
+                                        .withIdentifier(6)
+                        )
+
+                        .addDrawerItems(
+                                new PrimaryDrawerItem()
                                         .withName(R.string.about_us)
                                         .withIcon(MaterialDesignIconic.Icon.gmi_apps)
                                         .withSelectable(false)
                                         .withIdentifier(5)
 
                         ).withSelectedItem(-1)
+
 
                         .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                             @Override
@@ -113,7 +124,10 @@ public abstract class BaseActivity extends AppCompatActivity {
                                         startActivityForResult(intent3, HOME);
                                         break;
                                     case 5:
-                                        startActivityForResult(intent4,NEW4);
+                                        startActivityForResult(intent4, NEW4);
+                                        break;
+                                    case 6:
+                                        startActivityForResult(intent5,NEW6);
                                         break;
                                 }
                                 return false;
