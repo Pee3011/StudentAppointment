@@ -13,7 +13,7 @@
 
     <TextView
         android:id="@+id/nameView"
-        android:text="ชื่อ :"
+        android:text="First Name :"
         android:textSize="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
 
     <TextView
         android:id="@+id/lastNameview"
-        android:text="นามสกุล :"
+        android:text="Last Name :"
         android:textSize="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

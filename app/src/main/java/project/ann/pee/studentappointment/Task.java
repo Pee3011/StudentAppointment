@@ -86,11 +86,25 @@ public class Task extends Model {
         save();
     }
 
-    public static int count() {
+    public static int countIncomplete() {
+        return new Select()
+                .from(Task.class)
+                .where("status = ?",10)
+                .count();
+    }
+
+    public static int countComplete(){
+        return new Select()
+                .from(Task.class)
+                .where("status = ?",8)
+                .count();
+    }
+    public static int countCancle(){
         return new Select()
                 .from(Task.class)
                 .where("status = ?",6)
                 .count();
     }
+
 
 }

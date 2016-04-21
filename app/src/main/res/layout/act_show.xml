@@ -12,11 +12,11 @@
 
     <TextView
         android:id="@+id/timeEnd_name"
-        android:text="กิจกรรมที่เลือก :"
+        android:text="Activity  :"
         android:textSize="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="16dp"
+        android:paddingLeft="60dp"
         android:paddingTop="20dp"
         android:paddingBottom="16dp"
         android:layout_centerVertical="true"

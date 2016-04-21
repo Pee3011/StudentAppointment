@@ -14,8 +14,12 @@ import java.util.ArrayList;
 
 public class Report1 extends BaseActivity{
     private Task  task ;
-    private TextView reportView;
-    private static int count;
+    private TextView reportIncomplete;
+    private TextView reportComplete;
+    private TextView reportCancle;
+    private static int countIncomplete;
+    private static int countComplete;
+    private static int countCancle;
 
 
     @Override
@@ -25,11 +29,24 @@ public class Report1 extends BaseActivity{
         setDrawer(true);
         setTitle(R.string.tasks);
 
+//countIncomplete
+        reportIncomplete = (TextView) findViewById(R.id.reportIncomplete);
+        countIncomplete = Task.countIncomplete();
+        reportIncomplete.setText(Integer.toString(countIncomplete));
 
-        reportView = (TextView) findViewById(R.id.reportView);
+//countComplete
+        reportComplete = (TextView) findViewById(R.id.reportComplete);
+        countComplete = Task.countComplete();
+        reportComplete.setText(Integer.toString(countComplete));
+ //countCancle
+        reportCancle = (TextView) findViewById(R.id.reportCancle);
+        countCancle = Task.countCancle();
+        reportCancle.setText(Integer.toString(countCancle));
 
-        count = Task.count();
-        reportView.setText(Integer.toString(count));
+
+
+
+
     }
 
 
