@@ -8,7 +8,7 @@
     tools:context="project.ann.pee.studentappointment.FormActivity">
 
     <include android:id="@+id/toolbar_main" layout="@layout/toolbar_main" />
-   <include android:id="@+id/tb_buttom" layout="@layout/toolbar_buttom"/>
+
 
 <RelativeLayout
     android:layout_width="match_parent"
@@ -237,8 +237,31 @@
               android:layout_marginStart="24dp"
               android:layout_alignParentTop="true"
               android:layout_toEndOf="@+id/textView" />
+
       </RelativeLayout>
 
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/textView"
+            android:layout_gravity="right"
+            android:onClick="clickChoose"
+            android:nestedScrollingEnabled="false" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nothing"
+            android:id="@+id/textchoose"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            />
 
 
     </LinearLayout>

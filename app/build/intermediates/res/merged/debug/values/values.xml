@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="status">
+    <string-array name="statusar">
         <item>INCOMPLETE</item>
         <item>CANCEL</item>
         <item>COMPLETE</item>

@@ -70,12 +70,17 @@ public class ShowActivity extends BaseActivity {
             date_startView.setText(task.dateStart);
             date_endView.setText(task.dateEnd);
             location.setText(task.location.locationName);
-           // statusShow.setText(task.status.Name);
+            statusShow.setText(task.statusChar);
+
 
         } else {
             finish();
         }
+
     }
+
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

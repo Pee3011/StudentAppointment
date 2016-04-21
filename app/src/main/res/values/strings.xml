@@ -69,7 +69,7 @@
 
     <string name="action_settings">Settings</string>
 
-    <string-array name="status">
+    <string-array name="statusar">
         <item>INCOMPLETE</item>
         <item>CANCEL</item>
         <item>COMPLETE</item>

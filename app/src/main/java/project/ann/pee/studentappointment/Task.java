@@ -1,5 +1,7 @@
 package project.ann.pee.studentappointment;
 
+import android.renderscript.Sampler;
+
 import com.activeandroid.Model;
 import com.activeandroid.annotation.Column;
 import com.activeandroid.annotation.Table;
@@ -12,7 +14,9 @@ import java.util.List;
 
 @Table(name = "Tasks")
 public class Task extends Model {
-private static  final int INCOMPLETE=1;
+
+
+
     @Column(name = "title",onUpdate = Column.ForeignKeyAction.CASCADE,onDelete = Column.ForeignKeyAction.CASCADE)
     public Act title;
 
@@ -45,8 +49,11 @@ private static  final int INCOMPLETE=1;
     @Column(name ="timeStart")
     public String timeStart;
 
-    @Column(name = "status")
-    public String status;
+    @Column(name = "status" )
+    public int status;
+
+    @Column(name = "statusChar")
+    public String statusChar;
 
 
     @Column(name="timeEnd")
@@ -82,7 +89,7 @@ private static  final int INCOMPLETE=1;
     public static int count() {
         return new Select()
                 .from(Task.class)
-                .where("status = ? ",INCOMPLETE)
+                .where("status = ?",6)
                 .count();
     }
 
