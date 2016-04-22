@@ -52,12 +52,9 @@
     <string name="setting_home">HOME</string>
 
 
-    <string name="phone">Phone</string>
-    <string name="computer">Computer</string>
-    <string name="gamepad">Gamepad</string>
-    <string name="camera">Camera</string>
-    <string name="video">Video</string>
-    <string name="email">EMail</string>
+   <string name="about">Student appointment เป็นแอพพลิเคชั่นสำหรับนักเรียนและนักศึกษาเพื่อบันทึกกิจกรรมนัดหมายที่เกี่ยวเนื่องกับการเรียน หรือกิจกรรมทั่วไป</string>
+    <string name="version">Version 0.9 </string>
+
 
     <!-- Form Activity page-->
     <string name="FormAct">Activity :</string>

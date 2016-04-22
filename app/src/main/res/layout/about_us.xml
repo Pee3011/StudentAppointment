@@ -3,12 +3,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bkact"
+    android:background="@drawable/bkabout"
     android:orientation="vertical"
     tools:context="project.ann.pee.studentappointment.ShowActivity">
 
     <include
         android:id="@+id/toolbar_main"
         layout="@layout/toolbar_main"></include>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo3d"
+        android:layout_below="@+id/toolbar_main"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/version"
+      android:layout_centerVertical="true"
+      android:layout_centerHorizontal="true" />
+    <TextView
+      android:layout_width="250dp"
+      android:layout_height="wrap_content"
+      android:text="@string/about"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="208dp"
+      android:id="@+id/textView3" />
 
 </RelativeLayout>

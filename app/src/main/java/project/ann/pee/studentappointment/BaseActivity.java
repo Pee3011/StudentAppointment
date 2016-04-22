@@ -23,11 +23,11 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     private Toolbar mToolBar;
     protected static final int NEW_TASK = 1;
-    protected static final int NEW=2;
-    protected static final int NEW2=3;
-    protected static final int HOME=4;
-    protected static final int NEW4=5;
-    protected static final int NEW6=6;
+    protected static final int NEW = 2;
+    protected static final int NEW2 = 3;
+    protected static final int HOME = 4;
+    protected static final int NEW4 = 5;
+    protected static final int NEW6 = 6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,16 +40,15 @@ public abstract class BaseActivity extends AppCompatActivity {
 
         ActionBar supportActionBar = getSupportActionBar();
         if (supportActionBar != null)
-            if (upEnabled){
+            if (upEnabled) {
                 supportActionBar.setDisplayHomeAsUpEnabled(true);
-            }
-            else {
+            } else {
                 final Intent intent = new Intent(this, ActList.class);
-               final Intent intent1= new Intent(this,LocationList.class);
-                final Intent intent2=new Intent(this,ContactList.class);
-                final Intent intent3=new Intent(this,ListActivity.class);
-                final Intent intent4=new Intent(this,AboutUs.class);
-                final Intent intent5=new Intent(this,Report1.class);
+                final Intent intent1 = new Intent(this, LocationList.class);
+                final Intent intent2 = new Intent(this, ContactList.class);
+                final Intent intent3 = new Intent(this, ListActivity.class);
+                final Intent intent4 = new Intent(this, AboutUs.class);
+                final Intent intent5 = new Intent(this, Report1.class);
                 new DrawerBuilder()
                         .withActivity(this)
                         .withToolbar(toolbar_main)
@@ -127,7 +126,7 @@ public abstract class BaseActivity extends AppCompatActivity {
                                         startActivityForResult(intent4, NEW4);
                                         break;
                                     case 6:
-                                        startActivityForResult(intent5,NEW6);
+                                        startActivityForResult(intent5, NEW6);
                                         break;
                                 }
                                 return false;
@@ -136,6 +135,7 @@ public abstract class BaseActivity extends AppCompatActivity {
                         .build();
             }
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) onBackPressed();
@@ -151,11 +151,6 @@ public abstract class BaseActivity extends AppCompatActivity {
         menuItem.setIcon(icon);
         menuItem.setShowAsActionFlags(MenuItem.SHOW_AS_ACTION_IF_ROOM);
     }
-    protected void setTb_buttom(Boolean upEnabled) {
-        mToolBar = (Toolbar) findViewById(R.id.tb_buttom);
 
-
-
-    }
 
 }

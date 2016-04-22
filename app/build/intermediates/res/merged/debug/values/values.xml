@@ -676,6 +676,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="about">Student appointment เป็นแอพพลิเคชั่นสำหรับนักเรียนและนักศึกษาเพื่อบันทึกกิจกรรมนัดหมายที่เกี่ยวเนื่องกับการเรียน หรือกิจกรรมทั่วไป</string>
     <string name="about_us">About Us</string>
     <string name="act">Activities</string>
     <string name="actDefult">ชื่อกิจกรรม</string>
@@ -685,9 +686,7 @@
     <string name="app_name">StudentAppointment</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="are_you_sure">Are you sure?</string>
-    <string name="camera">Camera</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="computer">Computer</string>
     <string name="contactDetail">Contact Detail</string>
     <string name="contact_is_required">name is required.</string>
     <string name="contact_person">Contact Person</string>
@@ -706,9 +705,7 @@
     <string name="edit_location">Edit location</string>
     <string name="edit_status">Edit status</string>
     <string name="edit_task">Edit Task</string>
-    <string name="email">EMail</string>
     <string name="firsNameDefult">ชื่อ</string>
-    <string name="gamepad">Gamepad</string>
     <string name="lastNameDefult">สกุล</string>
     <string name="library_AndroidIconics_author">Mike Penz</string>
     <string name="library_AndroidIconics_authorWebsite">http://mikepenz.com/</string>
@@ -780,7 +777,6 @@
     <string name="no_contact">No Contact</string>
     <string name="no_location">No Location</string>
     <string name="no_task">No Appointment</string>
-    <string name="phone">Phone</string>
     <string name="refresh">Refresh</string>
     <string name="save">Save</string>
     <string name="setting_Activity">Activity</string>
@@ -798,7 +794,7 @@
     <string name="time_start">Time Start</string>
     <string name="title_is_required">Date is required.</string>
     <string name="unsaved_exit_alert">You have unsaved data. Are you sure you want to exit?</string>
-    <string name="video">Video</string>
+    <string name="version">Version 0.9 </string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

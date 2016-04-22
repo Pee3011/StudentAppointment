@@ -4,32 +4,32 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_main.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\toolbar_main.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_secondary.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_secondary.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_main.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\toolbar_main.xml"
+    },
+    {
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
     },
     {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_us.xml",
         "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\about_us.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
@@ -48,24 +48,24 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_mini_profile.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_form.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\activity_form.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gridcell.xml",
@@ -88,16 +88,12 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gridcell.xml",
-        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\gridcell.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -108,36 +104,36 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_divider.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_divider.xml"
-    },
-    {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\location_show.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\location_show.xml"
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_recycler_view.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_recycler_view.xml"
     },
     {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\location_show.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\location_show.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_divider.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_divider.xml"
+    },
+    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -164,12 +160,12 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\gridcell.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary_switch.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_secondary_switch.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary_switch.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_secondary_switch.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -188,16 +184,16 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_icon.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\act_list.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\act_list.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\location_show.xml",
@@ -228,24 +224,20 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_buttom.xml",
-        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\toolbar_buttom.xml"
-    },
-    {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
@@ -256,24 +248,24 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\src\\main\\res\\layout\\location_list.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown2.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\src\\main\\res\\layout\\dropdown2.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_buttom.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\toolbar_buttom.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_primary.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_primary.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_switch.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_switch.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_primary.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_primary.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\act_form.xml",
@@ -304,20 +296,20 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
@@ -376,20 +368,12 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\main.xml"
-    },
-    {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\maincalen.xml",
-        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\maincalen.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\act_list.xml",
@@ -398,10 +382,6 @@
     {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_primary.xml",
         "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_primary.xml"
-    },
-    {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\status_form.xml",
-        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\status_form.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
@@ -420,12 +400,12 @@
         "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_header.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_header.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_profile.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_profile.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_header.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_header.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
@@ -472,12 +452,12 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_recycler_view.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_recycler_view.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_compact_header.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_compact_header.xml"
+    },
+    {
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_recycler_view.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_recycler_view.xml"
     },
     {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -492,12 +472,12 @@
         "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_header.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\act_form.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\src\\main\\res\\layout\\act_form.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\act_form.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\src\\main\\res\\layout\\act_form.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
@@ -528,12 +508,12 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_header.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_divider.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_divider.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_divider.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_divider.xml"
     },
     {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_toggle.xml",
@@ -548,20 +528,20 @@
         "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\location_form.xml",
-        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\location_form.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\location_form.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\src\\main\\res\\layout\\location_form.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\location_form.xml",
+        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\location_form.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary_switch.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_secondary_switch.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_recycler_view.xml",
@@ -616,12 +596,12 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_container.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_container.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_form.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\src\\main\\res\\layout\\activity_form.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_container.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_container.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
@@ -640,16 +620,16 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -704,20 +684,20 @@
         "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\report.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_primary.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_primary.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_section.xml",
@@ -744,16 +724,16 @@
         "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\report.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\src\\main\\res\\layout\\report.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\report.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\src\\main\\res\\layout\\report.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -776,12 +756,12 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\location_list.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_profile_setting.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_profile_setting.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary_switch.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_secondary_switch.xml"
+    },
+    {
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_profile_setting.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_profile_setting.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -792,12 +772,12 @@
         "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_mini_profile.xml",
@@ -808,12 +788,12 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_divider.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_slider.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_slider.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_secondary.xml"
+    },
+    {
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_slider.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_slider.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
@@ -832,24 +812,20 @@
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\contact_show.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown2.xml",
-        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\dropdown2.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_secondary.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_list.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\contact_list.xml"
+    },
+    {
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_secondary.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -896,32 +872,32 @@
         "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\act_list.xml",
-        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\act_list.xml"
-    },
-    {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_main.xml",
         "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\toolbar_main.xml"
+    },
+    {
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\act_list.xml",
+        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\act_list.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list.xml",
-        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\activity_list.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\activity_list.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list.xml",
+        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\activity_list.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_buttom.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\src\\main\\res\\layout\\toolbar_buttom.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
@@ -936,12 +912,12 @@
         "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\contact_form.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_profile_setting.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_profile_setting.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_profile_setting.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_profile_setting.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_show.xml",
@@ -952,12 +928,12 @@
         "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_list.xml",
-        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\contact_list.xml"
-    },
-    {
         "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_mini.xml",
         "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_mini.xml"
+    },
+    {
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_list.xml",
+        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\contact_list.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -984,63 +960,59 @@
         "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_main.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\src\\main\\res\\layout\\toolbar_main.xml"
+    },
+    {
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_form.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\contact_form.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_switch.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.6.4\\res\\layout\\material_drawer_item_switch.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\act_form.xml",
-        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\act_form.xml"
-    },
-    {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown2.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\dropdown2.xml"
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\materialize.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.5.1\\res\\layout\\materialize.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown2.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\src\\main\\res\\layout\\dropdown2.xml"
+    },
+    {
+        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\act_form.xml",
+        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\act_form.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "D:\\Up to cloud\\semester 2_58  Project\\Github-master\\Github-master\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "D:\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date.xml",
-        "source": "D:\\StudentAppointment\\app\\src\\main\\res\\layout\\date.xml"
+        "merged": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\Up to cloud\\semester 2_58  Project\\Last version\\StudentAppointment\\StudentAppointment\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
     }
 ]

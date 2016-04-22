@@ -28,7 +28,7 @@ public class ListActivity extends BaseActivity {
 
     private static final int NEW_TASK = 1;
     private static final int SHOW_TASK = 2;
-    private static final int Refresh=3;
+    private static final int Refresh = 3;
     private ArrayList<Task> tasks;
 
 
@@ -42,11 +42,11 @@ public class ListActivity extends BaseActivity {
         setContentView(R.layout.activity_list);
         setDrawer(false);
         setTitle(R.string.tasks);
-        setTb_buttom(true);
+
 
         listView = (ListView) findViewById(R.id.listView);
         emptyLabel = (TextView) findViewById(R.id.emptyLabel);
-        scrollView = (ScrollView)findViewById(R.id.scrollView);
+        scrollView = (ScrollView) findViewById(R.id.scrollView);
 
 
         FloatingActionButton newFab = (FloatingActionButton) findViewById(R.id.newFab);
@@ -60,14 +60,15 @@ public class ListActivity extends BaseActivity {
         });
 
 
-
         setView();
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         addMenuItem(menu, Refresh, R.string.refresh, buildDrawable(MaterialDesignIconic.Icon.gmi_refresh));
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (Refresh) {
@@ -79,7 +80,7 @@ public class ListActivity extends BaseActivity {
     }
 
     private void Refresh() {
-        Intent i= getIntent();
+        Intent i = getIntent();
         finish();
         startActivity(i);
     }
@@ -139,7 +140,7 @@ class TasksAdapter extends ArrayAdapter<Task> {
         TextView tv = (TextView) convertView.findViewById(android.R.id.text1);
         tv.setText(task.title.activityName);
 
-        TextView t =(TextView)convertView.findViewById(android.R.id.text2);
+        TextView t = (TextView) convertView.findViewById(android.R.id.text2);
         t.setText(task.dateStart);
         return convertView;
     }

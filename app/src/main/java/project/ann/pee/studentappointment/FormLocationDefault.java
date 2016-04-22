@@ -16,7 +16,7 @@ public class FormLocationDefault extends BaseActivity {
 
     private static final int MenuItem_SaveID = 1;
     private static final int MenuItem_DeleteID = 2;
-    private LocationsTB location= null;
+    private LocationsTB location = null;
     private EditText locationEdit;
 
     @Override
@@ -84,9 +84,9 @@ public class FormLocationDefault extends BaseActivity {
 
     private boolean isEdited() {
         if (location == null)
-            return locationEdit.getText().length() > 0 ;
+            return locationEdit.getText().length() > 0;
         else
-            return !location.locationName.equals(locationEdit.getText().toString()) ;
+            return !location.locationName.equals(locationEdit.getText().toString());
     }
 
     private void save() {

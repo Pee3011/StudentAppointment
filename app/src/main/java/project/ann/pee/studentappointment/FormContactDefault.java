@@ -18,7 +18,7 @@ public class FormContactDefault extends BaseActivity {
 
     private static final int MenuItem_SaveID = 1;
 
-    private ContactTB contact= null;
+    private ContactTB contact = null;
     private EditText firstNameEdit;
     private EditText lastNameEdit;
 
@@ -29,14 +29,14 @@ public class FormContactDefault extends BaseActivity {
         setContentView(R.layout.contact_form);
         setDrawer(true);
 
-        firstNameEdit= (EditText) findViewById(R.id.firstNameEdit);
-        lastNameEdit= (EditText) findViewById(R.id.lastNameEdit);
+        firstNameEdit = (EditText) findViewById(R.id.firstNameEdit);
+        lastNameEdit = (EditText) findViewById(R.id.lastNameEdit);
         long id = getIntent().getLongExtra("id", 0);
         if (id == 0) {
             setTitle(R.string.new_contact);
         } else {
             setTitle(R.string.edit_contact);
-            contact = ContactTB.load(ContactTB.class,id);
+            contact = ContactTB.load(ContactTB.class, id);
             if (contact != null) {
                 firstNameEdit.setText(contact.firstName);
                 lastNameEdit.setText(contact.lastName);
@@ -86,10 +86,10 @@ public class FormContactDefault extends BaseActivity {
     private boolean isEdited() {
         if (contact == null)
             return firstNameEdit.getText().length() > 0 ||
-       lastNameEdit.getText().length() > 0 ;
+                    lastNameEdit.getText().length() > 0;
         else
             return !contact.firstName.equals(firstNameEdit.getText().toString())
-                  || !contact.lastName.equals(lastNameEdit.getText().toString()) ;
+                    || !contact.lastName.equals(lastNameEdit.getText().toString());
     }
 
     private void save() {

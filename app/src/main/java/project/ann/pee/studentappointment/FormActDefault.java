@@ -26,14 +26,8 @@ public class FormActDefault extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_form);
         setDrawer(true);
-        setTb_buttom(true);
-        ImageButton b = (ImageButton) findViewById(R.id.report);
-        b.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(FormActDefault.this, ListActivity.class));
-            }
-        });
+
+
         actEdit = (EditText) findViewById(R.id.actEdit);
 
         long id = getIntent().getLongExtra("id", 0);
@@ -41,7 +35,7 @@ public class FormActDefault extends BaseActivity {
             setTitle(R.string.new_activity);
         } else {
             setTitle(R.string.edit_activity);
-            act = Act.load(Act.class,id);
+            act = Act.load(Act.class, id);
             if (act != null) {
                 actEdit.setText(act.activityName);
 
@@ -89,9 +83,9 @@ public class FormActDefault extends BaseActivity {
 
     private boolean isEdited() {
         if (act == null)
-            return actEdit.getText().length() > 0 ;
+            return actEdit.getText().length() > 0;
         else
-            return !act.activityName.equals(actEdit.getText().toString()) ;
+            return !act.activityName.equals(actEdit.getText().toString());
     }
 
     private void save() {

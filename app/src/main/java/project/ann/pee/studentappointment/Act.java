@@ -9,13 +9,11 @@ import java.util.Date;
 import java.util.List;
 
 
-
 @Table(name = "Act")
 public class Act extends Model {
 
     @Column(name = "activityName")
     public String activityName;
-
 
 
     @Column(name = "dueAt", index = true)

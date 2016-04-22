@@ -21,12 +21,11 @@ import java.util.List;
 @Table(name = "Contact")
 public class ContactTB extends Model {
 
-    @Column(name="firstName")
+    @Column(name = "firstName")
     public String firstName;
 
 
-
-    @Column(name="lastName")
+    @Column(name = "lastName")
     public String lastName;
 
     @Column(name = "dueAt", index = true)
@@ -42,14 +41,15 @@ public class ContactTB extends Model {
         return new Select().from(ContactTB.class).execute();
     }
 
-    public  ContactTB(){
+    public ContactTB() {
         super();
     }
 
-    public List<Task> tasks(){
-        return getMany(Task.class,"contact");
+    public List<Task> tasks() {
+        return getMany(Task.class, "contact");
 
     }
+
     public void saveWithTimestamp() {
         Date now = new Date();
         updatedAt = now;

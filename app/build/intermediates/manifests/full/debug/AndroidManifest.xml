@@ -11,7 +11,7 @@
     <application
         android:name="project.ann.pee.studentappointment.StudentAppointmentApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/logo_app"
+        android:icon="@mipmap/logoapp3d"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
@@ -36,7 +36,6 @@
         <activity android:name="project.ann.pee.studentappointment.ShowLocation" />
         <activity android:name="project.ann.pee.studentappointment.ShowContact" />
         <activity android:name="project.ann.pee.studentappointment.ContactList" />
-        <activity android:name="project.ann.pee.studentappointment.LocationForSelect" />
         <activity android:name="project.ann.pee.studentappointment.Report1" />
         <activity android:name="project.ann.pee.studentappointment.AboutUs" />
 
