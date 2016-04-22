@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/colorbk"
     tools:context="project.ann.pee.studentappointment.FormActivity">
 
-    <include android:id="@+id/toolbar_main" layout="@layout/toolbar_main" />
+    <include
+        android:id="@+id/toolbar_main"
+        layout="@layout/toolbar_main" />
 
 
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:paddingBottom="10dp"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:layout_gravity="center_horizontal"
-    android:id="@+id/relativeLayout"
-    android:layout_below="@+id/toolbar_main"
-    android:layout_alignParentStart="true">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar_main"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
 
 
-</RelativeLayout>
+    </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/relativeLayout2"
@@ -33,105 +34,107 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin">
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/view"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/textView2"
-        android:layout_marginStart="10dp">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/view"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/textView2">
 
-        <Spinner
+            <Spinner
                 android:id="@+id/titleEdit"
                 android:layout_width="fill_parent"
                 android:layout_height="35dp"
-                android:prompt="@string/spinner_title"
                 android:layout_alignParentStart="true"
+                android:prompt="@string/spinner_title"
 
-            />
+                />
 
 
-       <Spinner
-            android:id="@+id/spinner"
-            android:layout_width="fill_parent"
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="fill_parent"
 
-            android:layout_height="35dp"
-            android:prompt="@string/spinner_title"
-            android:layout_below="@id/titleEdit"
-            android:layout_alignParentStart="true" />
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/titleEdit"
+                android:prompt="@string/spinner_title" />
 
-        <Spinner
-            android:id="@+id/locationEdit"
-            android:layout_width="fill_parent"
-            android:layout_height="35dp"
-            android:prompt="@string/spinner_title"
-            android:layout_below="@id/spinner"
-            android:layout_alignParentStart="true" />
+            <Spinner
+                android:id="@+id/locationEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/spinner"
+                android:prompt="@string/spinner_title" />
 
-    </android.support.design.widget.TextInputLayout>
+        </android.support.design.widget.TextInputLayout>
+
         <ImageButton
             android:id="@+id/add_contact"
-            android:src="@drawable/ic_add_white_18dp"
-            android:background="@color/md_blue_100"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
             android:layout_toEndOf="@+id/view"
-            android:layout_marginStart="10dp"/>
-
-       <ImageButton
-            android:id="@+id/add_location"
-           android:src="@drawable/ic_add_white_18dp"
-          android:background="@color/md_blue_100"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-           android:layout_alignParentBottom="true"
-           android:layout_toEndOf="@+id/view"
-           android:layout_marginStart="10dp"/>
-
-       <ImageButton
-            android:id="@+id/add_title"
-            android:src="@drawable/ic_add_white_18dp"
             android:background="@color/md_blue_100"
+            android:src="@drawable/ic_add_white_18dp" />
+
+        <ImageButton
+            android:id="@+id/add_location"
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
             android:layout_toEndOf="@+id/view"
-           android:layout_marginStart="10dp"/>
+            android:background="@color/md_blue_100"
+            android:src="@drawable/ic_add_white_18dp" />
+
+        <ImageButton
+            android:id="@+id/add_title"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/view"
+            android:background="@color/md_blue_100"
+            android:src="@drawable/ic_add_white_18dp" />
 
         <TextView
+            android:id="@+id/textView2"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
-            android:text="@string/FormAct"
             android:layout_alignBottom="@+id/add_title"
             android:layout_alignParentStart="true"
-            android:id="@+id/textView2" />
+            android:text="@string/FormAct" />
+
         <TextView
             android:layout_width="60dp"
             android:layout_height="wrap_content"
-            android:text="@string/FormContact"
             android:layout_alignBottom="@+id/add_contact"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:text="@string/FormContact" />
+
         <TextView
             android:layout_width="65dp"
             android:layout_height="wrap_content"
-            android:text="@string/FormLocation"
             android:layout_alignParentBottom="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:text="@string/FormLocation" />
 
     </RelativeLayout>
 
     <LinearLayout
-        android:orientation="vertical"
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
         android:paddingBottom="0dp"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="0dp"
-        android:layout_gravity="center_horizontal"
-        android:id="@+id/linearLayout2"
-        android:layout_below="@+id/relativeLayout2">
-
+        android:paddingTop="0dp">
 
 
         <android.support.design.widget.TextInputLayout
@@ -141,130 +144,129 @@
         </android.support.design.widget.TextInputLayout>
 
 
-
         <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <EditText
+                android:id="@+id/contentEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textMultiLine"
                 android:ems="10"
-                android:id="@+id/contentEdit"
                 android:hint="@string/task_content"
-                />
+                android:inputType="textMultiLine" />
         </android.support.design.widget.TextInputLayout>
 
-       <android.support.design.widget.TextInputLayout
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="date"
-            android:ems="10"
-            android:id="@+id/dateStart"
-            android:layout_gravity="center_horizontal"
-            android:hint="@string/date_start"
-            />
+                android:id="@+id/dateStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:hint="@string/date_start"
+                android:inputType="date" />
+
             <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
                 <EditText
+                    android:id="@+id/timeStart"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="time"
-                    android:ems="10"
-                    android:id="@+id/timeStart"
                     android:layout_gravity="center_horizontal"
+                    android:ems="10"
                     android:hint="@string/time_start"
-                    />
+                    android:inputType="time" />
+            </android.support.design.widget.TextInputLayout>
+
         </android.support.design.widget.TextInputLayout>
 
-    </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="date"
-                android:ems="10"
                 android:id="@+id/dateEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:ems="10"
                 android:hint="@string/date_end"
-                />
+                android:inputType="date" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <EditText
+                android:id="@+id/timeEnd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="time"
-                android:ems="10"
-                android:id="@+id/timeEnd"
                 android:layout_gravity="center_horizontal"
+                android:ems="10"
                 android:hint="@string/time_end"
-                />
+                android:inputType="time" />
         </android.support.design.widget.TextInputLayout>
 
         <EditText
+            android:id="@+id/textchoose"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Status No Select"
-            android:id="@+id/textchoose"
+            android:layout_gravity="center_horizontal"
             android:ems="10"
 
-            android:padding="10dp"
-            android:layout_gravity="center_horizontal"
-            />
+            android:hint="Status No Select"
+            android:padding="10dp" />
 
-      <RelativeLayout
-          android:id="@+id/spinStatus"
-          android:layout_below="@id/timeEnd"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content">
-          <TextView
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:text="@string/FormStatus"
-              android:layout_centerVertical="true"
-              android:layout_alignParentStart="true"
-              android:id="@+id/textView" />
+        <RelativeLayout
+            android:id="@+id/spinStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timeEnd">
 
-          <Spinner
-              android:id="@+id/status"
-              android:layout_width="190dp"
-              android:layout_height="35dp"
-              android:prompt="@string/spinner_title"
-              android:layout_gravity="center_horizontal"
-              android:layout_marginStart="24dp"
-              android:layout_alignParentTop="true"
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="@string/FormStatus" />
 
-              android:layout_toEndOf="@+id/textView" />
-          <Button
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:text="Select"
-              android:id="@+id/button"
-              android:layout_gravity="right"
-              android:onClick="clickChoose"
-              android:layout_alignParentTop="true"
-              android:layout_toEndOf="@+id/status" />
+            <Spinner
+                android:id="@+id/status"
+                android:layout_width="190dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="24dp"
+                android:layout_toEndOf="@+id/textView"
 
+                android:prompt="@string/spinner_title" />
 
-      </RelativeLayout>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right"
+                android:layout_toEndOf="@+id/status"
+                android:onClick="clickChoose"
+                android:text="Select" />
 
 
+        </RelativeLayout>
 
 
     </LinearLayout>

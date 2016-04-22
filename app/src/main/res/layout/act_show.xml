@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/bkact"
+    android:orientation="vertical"
     tools:context="project.ann.pee.studentappointment.ShowActivity">
 
-    <include android:id="@+id/toolbar_main" layout="@layout/toolbar_main"></include>
+    <include
+        android:id="@+id/toolbar_main"
+        layout="@layout/toolbar_main"></include>
 
     <TextView
         android:id="@+id/timeEnd_name"
-        android:text="Activity  :"
-        android:textSize="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="16dp"
         android:paddingLeft="60dp"
         android:paddingTop="20dp"
-        android:paddingBottom="16dp"
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
+        android:text="Activity  :"
+        android:textSize="15dp" />
 
     <TextView
+        android:id="@+id/actView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Activity"
 
-        android:textColor="@color/primary"
+        android:layout_alignBottom="@+id/timeEnd_name"
+        android:layout_toEndOf="@+id/timeEnd_name"
+        android:paddingBottom="16dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:paddingBottom="16dp"
-        android:paddingTop="@dimen/activity_horizontal_margin"
 
-        android:scrollbars="vertical"
+        android:paddingTop="@dimen/activity_horizontal_margin"
         android:scrollHorizontally="false"
-        android:id="@+id/actView"
-        android:layout_alignBottom="@+id/timeEnd_name"
-        android:layout_toEndOf="@+id/timeEnd_name" />
+        android:scrollbars="vertical"
+        android:text="Activity"
+        android:textColor="@color/primary" />
 
 </RelativeLayout>

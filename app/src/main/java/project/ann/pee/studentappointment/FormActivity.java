@@ -23,6 +23,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.EditText;
+
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
 import com.mikepenz.materialdrawer.model.ContainerDrawerItem;
 
@@ -39,13 +40,14 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Locale;
+
 import android.widget.AdapterView.OnItemSelectedListener;
 
 
 public class FormActivity extends BaseActivity implements OnClickListener {
 
     private static final int MenuItem_SaveID = 1;
-    private static final int Refresh=2;
+    private static final int Refresh = 2;
 
 
     private Task task = null;
@@ -58,8 +60,8 @@ public class FormActivity extends BaseActivity implements OnClickListener {
     private EditText date_startEdit;
     private EditText date_endEdit;
     private Spinner location;
-    private Spinner statusEdit;
-    private Spinner spn;
+
+
     private EditText tx;
 
 
@@ -75,7 +77,6 @@ public class FormActivity extends BaseActivity implements OnClickListener {
     private ArrayList<ContactTB> contactTBs;
     private ArrayList<Act> acts;
     private ArrayList<LocationsTB> locats;
-    private ArrayList<Status> statuses;
     private DatePickerDialog fromDatePickerDialog;
     private DatePickerDialog toDatePickerDialog;
 
@@ -96,7 +97,7 @@ public class FormActivity extends BaseActivity implements OnClickListener {
 
         Spinner spn = (Spinner) findViewById(R.id.status);
 
-        str=getResources().getStringArray(R.array.statusar);
+        str = getResources().getStringArray(R.array.statusar);
         ArrayAdapter<String> objAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, str);
         objAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spn.setAdapter(objAdapter);
@@ -123,22 +124,22 @@ public class FormActivity extends BaseActivity implements OnClickListener {
 
 
         ImageButton add_title = (ImageButton) findViewById(R.id.add_title);
-              add_title.setOnClickListener(new OnClickListener() {
-                  @Override
-                  public void onClick(View v) {
-                      startActivity(new Intent(FormActivity.this, FormActDefault.class));
+        add_title.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(FormActivity.this, FormActDefault.class));
 
-                  }
-              });
+            }
+        });
 
         ImageButton add_contact = (ImageButton) findViewById(R.id.add_contact);
-               add_contact.setOnClickListener(new OnClickListener() {
-                   @Override
-                   public void onClick(View v) {
-                       startActivity(new Intent(FormActivity.this, FormContactDefault.class));
+        add_contact.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(FormActivity.this, FormContactDefault.class));
 
-                   }
-               });
+            }
+        });
 
         ImageButton add_location = (ImageButton) findViewById(R.id.add_location);
 
@@ -151,16 +152,15 @@ public class FormActivity extends BaseActivity implements OnClickListener {
         });
 
 
-        tx=(EditText)findViewById(R.id.textchoose);
+        tx = (EditText) findViewById(R.id.textchoose);
         spinner = (Spinner) findViewById(R.id.spinner);
-        titleEdit = (Spinner)findViewById(R.id.titleEdit);
-        location = (Spinner)findViewById(R.id.locationEdit);
+        titleEdit = (Spinner) findViewById(R.id.titleEdit);
+        location = (Spinner) findViewById(R.id.locationEdit);
         contentEdit = (EditText) findViewById(R.id.contentEdit);
         time_StarEdit = (EditText) findViewById(R.id.timeStart);
         time_EndEdit = (EditText) findViewById(R.id.timeEnd);
         date_startEdit = (EditText) findViewById(R.id.dateStart);
         date_endEdit = (EditText) findViewById(R.id.dateEnd);
-        //statusEdit=(Spinner)findViewById(R.id.status);
 
 
         long id = getIntent().getLongExtra("id", 0);
@@ -169,28 +169,23 @@ public class FormActivity extends BaseActivity implements OnClickListener {
         } else {
             setTitle(R.string.edit_task);
             task = Task.load(Task.class, id);
-            contactTB = ContactTB.load(ContactTB.class,id);
+            contactTB = ContactTB.load(ContactTB.class, id);
             if (task != null) {
                 contentEdit.setText(task.content);
-                // contactEdit.setText(task.contact);
                 time_StarEdit.setText(task.timeStart);
                 time_EndEdit.setText(task.timeEnd);
                 date_startEdit.setText(task.dateStart);
                 date_endEdit.setText(task.dateEnd);
-                //location.setText(task.location);
-                int spinnerPosition = task.contact.getId().intValue()-1;
+                tx.setText(task.statusChar);
+                int spinnerPosition = task.contact.getId().intValue() - 1;
                 spinner.setSelection(spinnerPosition);
 
 
-
-                int spinnerPosition1 = task.title.getId().intValue()-1;
+                int spinnerPosition1 = task.title.getId().intValue() - 1;
                 titleEdit.setSelection(spinnerPosition1);
 
-                int spinnerPosition2 = task.location.getId().intValue()-1;
+                int spinnerPosition2 = task.location.getId().intValue() - 1;
                 location.setSelection(spinnerPosition2);
-
-
-
 
 
             } else {
@@ -200,9 +195,10 @@ public class FormActivity extends BaseActivity implements OnClickListener {
     }
 
 
-public void clickChoose(View view){
-    tx.setText(choosed);
-}
+    public void clickChoose(View view) {
+        tx.setText(choosed);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         addMenuItem(menu, Refresh, R.string.refresh, buildDrawable(MaterialDesignIconic.Icon.gmi_refresh));
@@ -244,8 +240,8 @@ public void clickChoose(View view){
     }
 
     private void refresh() {
-        Intent i= getIntent();
-               finish();
+        Intent i = getIntent();
+        finish();
         startActivity(i);
     }
 
@@ -336,14 +332,14 @@ public void clickChoose(View view){
 
             task.statusChar = tx.getText().toString();
             task.status = tx.getText().length();
-            task.title = (Act)titleEdit.getSelectedItem();
+            task.title = (Act) titleEdit.getSelectedItem();
             task.content = contentEdit.getText().toString();
-            task.contact =  (ContactTB) spinner.getSelectedItem();
+            task.contact = (ContactTB) spinner.getSelectedItem();
             task.timeStart = time_StarEdit.getText().toString();
             task.timeEnd = time_EndEdit.getText().toString();
             task.dateStart = date_startEdit.getText().toString();
             task.dateEnd = date_endEdit.getText().toString();
-            task.location = (LocationsTB)location.getSelectedItem();
+            task.location = (LocationsTB) location.getSelectedItem();
             task.saveWithTimestamp();
             setResult(Activity.RESULT_OK, new Intent().putExtra("id", task.getId()));
             this.finish();
@@ -392,11 +388,8 @@ public void clickChoose(View view){
 
         Spinner sp2 = (Spinner) findViewById(R.id.locationEdit);
         sp2.setOnItemSelectedListener(new LocationAdapter(this, locats));
-        locats=new ArrayList<>(LocationsTB.getAll());
+        locats = new ArrayList<>(LocationsTB.getAll());
 
-      //  Spinner sp3=(Spinner)findViewById(R.id.status);
-      //  sp3.setOnItemSelectedListener(new StatusAdapter(this, statuses));
-      //  statuses = new ArrayList<>(Status.getAll());
 
         sp.setAdapter(new ContactTBAdapter(this, contactTBs));
         ArrayAdapter<ContactTB> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, contactTBs);
@@ -408,12 +401,10 @@ public void clickChoose(View view){
 
 
         sp2.setAdapter(new LocationAdapter(this, locats));
-        ArrayAdapter<LocationsTB> adapter2= new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, locats);
+        ArrayAdapter<LocationsTB> adapter2 = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, locats);
         adapter2.setDropDownViewResource(android.R.layout.simple_spinner_item);
 
-        //sp3.setAdapter(new StatusAdapter(this, statuses));
-       // ArrayAdapter<Status> adapter3= new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, statuses);
-       // adapter3.setDropDownViewResource(android.R.layout.simple_spinner_item);
+
     }
 
     private class LocationAdapter extends ArrayAdapter<LocationsTB> implements OnItemSelectedListener {
@@ -456,6 +447,7 @@ public void clickChoose(View view){
 
         }
     }
+
     private class ActivityAdapter extends ArrayAdapter<Act> implements OnItemSelectedListener {
         public ActivityAdapter(Context context, ArrayList<Act> acts) {
             super(context, R.layout.support_simple_spinner_dropdown_item, acts);
@@ -511,8 +503,6 @@ public void clickChoose(View view){
             TextView sp = (TextView) convertView.findViewById(android.R.id.text1);
             sp.setText(contactTB.firstName);
 
-            //TextView sp1 = (TextView) convertView.findViewById(android.R.id.text2);
-            //sp1.setText(contactTB.lastName);
 
             return convertView;
         }
@@ -534,8 +524,6 @@ public void clickChoose(View view){
         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
 
-
-
         }
 
         @Override
@@ -543,49 +531,8 @@ public void clickChoose(View view){
 
         }
     }
-    class StatusAdapter extends ArrayAdapter<Status> implements OnItemSelectedListener {
-        public StatusAdapter(Context context, ArrayList<Status> statuses) {
-            super(context, R.layout.support_simple_spinner_dropdown_item, statuses);
-        }
-
-        @Override
-        public View getDropDownView(int position, View convertView, ViewGroup parent) {
-            Status status = getItem(position);
-            if (convertView == null) {
-                convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_expandable_list_item_2, parent, false);
-            }
-            TextView sp = (TextView) convertView.findViewById(android.R.id.text1);
-            sp.setText(status.Name);
-
-            return convertView;
-        }
-
-        @Override
-        public View getView(int position, View convertView, ViewGroup parent) {
-            Status status = getItem(position);
-            if (convertView == null) {
-                convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_spinner_item, parent, false);
-            }
-            TextView sp = (TextView) convertView.findViewById(android.R.id.text1);
-            sp.setText(status.Name);
-
-            return convertView;
-        }
 
 
-        @Override
-        public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
-
-
-
-        }
-
-        @Override
-        public void onNothingSelected(AdapterView<?> parent) {
-
-        }
-    }
 }
 
 

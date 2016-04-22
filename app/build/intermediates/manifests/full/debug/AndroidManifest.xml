@@ -27,8 +27,6 @@
         </activity>
         <activity android:name="project.ann.pee.studentappointment.ShowActivity" />
         <activity android:name="project.ann.pee.studentappointment.FormActDefault" />
-        <activity android:name="project.ann.pee.studentappointment.DropdownAct" />
-        <activity android:name="project.ann.pee.studentappointment.AndroidSpinnerExampleActivity" />
         <activity android:name="project.ann.pee.studentappointment.FormActivity" />
         <activity android:name="project.ann.pee.studentappointment.FormLocationDefault" />
         <activity android:name="project.ann.pee.studentappointment.FormContactDefault" />
@@ -38,10 +36,9 @@
         <activity android:name="project.ann.pee.studentappointment.ShowLocation" />
         <activity android:name="project.ann.pee.studentappointment.ShowContact" />
         <activity android:name="project.ann.pee.studentappointment.ContactList" />
-        <activity android:name="project.ann.pee.studentappointment.Main" />
         <activity android:name="project.ann.pee.studentappointment.LocationForSelect" />
         <activity android:name="project.ann.pee.studentappointment.Report1" />
-        <activity android:name="project.ann.pee.studentappointment.FormStatus" />
+        <activity android:name="project.ann.pee.studentappointment.AboutUs" />
 
         <meta-data
             android:name="AA_DB_NAME"
@@ -51,7 +48,7 @@
             android:value="1" />
         <meta-data
             android:name="AA_MODELS"
-            android:value="project.ann.pee.studentappointment.Task, project.ann.pee.studentappointment.Act,         project.ann.pee.studentappointment.LocationsTB,project.ann.pee.studentappointment.ContactTB,         project.ann.pee.studentappointment.Status" />
+            android:value="project.ann.pee.studentappointment.Task, project.ann.pee.studentappointment.Act,         project.ann.pee.studentappointment.LocationsTB,project.ann.pee.studentappointment.ContactTB" />
     </application>
 
 </manifest>

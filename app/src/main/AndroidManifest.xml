@@ -22,8 +22,6 @@
         </activity>
         <activity android:name=".ShowActivity" />
         <activity android:name=".FormActDefault"/>
-        <activity android:name=".DropdownAct"/>
-        <activity android:name=".AndroidSpinnerExampleActivity"/>
         <activity android:name=".FormActivity"/>
         <activity android:name=".FormLocationDefault"/>
         <activity android:name=".FormContactDefault"/>
@@ -33,17 +31,15 @@
         <activity android:name=".ShowLocation"/>
         <activity android:name=".ShowContact"/>
         <activity android:name=".ContactList"/>
-        <activity android:name=".Main"/>
         <activity android:name=".LocationForSelect"/>
         <activity android:name=".Report1"/>
-        <activity android:name=".FormStatus"/>
+        <activity android:name=".AboutUs"/>
 
 
         <meta-data android:name="AA_DB_NAME" android:value="SA.db" />
         <meta-data android:name="AA_DB_VERSION" android:value="1" />
         <meta-data android:name="AA_MODELS" android:value="project.ann.pee.studentappointment.Task, project.ann.pee.studentappointment.Act,
-        project.ann.pee.studentappointment.LocationsTB,project.ann.pee.studentappointment.ContactTB,
-        project.ann.pee.studentappointment.Status" />
+        project.ann.pee.studentappointment.LocationsTB,project.ann.pee.studentappointment.ContactTB"       />
 
     </application>
 

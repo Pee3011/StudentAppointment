@@ -48,7 +48,7 @@ public abstract class BaseActivity extends AppCompatActivity {
                final Intent intent1= new Intent(this,LocationList.class);
                 final Intent intent2=new Intent(this,ContactList.class);
                 final Intent intent3=new Intent(this,ListActivity.class);
-                final Intent intent4=new Intent(this,FormStatus.class);
+                final Intent intent4=new Intent(this,AboutUs.class);
                 final Intent intent5=new Intent(this,Report1.class);
                 new DrawerBuilder()
                         .withActivity(this)

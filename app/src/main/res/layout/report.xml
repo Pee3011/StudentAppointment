@@ -1,85 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bkreport"
     android:orientation="vertical"
     tools:context="project.ann.pee.studentappointment.ShowActivity">
 
-    <include android:id="@+id/toolbar_main" layout="@layout/toolbar_main" />
+    <include
+        android:id="@+id/toolbar_main"
+        layout="@layout/toolbar_main" />
 
 
     <TextView
         android:id="@+id/Incomplete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Incomplete :"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:layout_below="@+id/toolbar_main"
-        android:layout_alignParentStart="true"
-        />
-    <TextView
-        android:id="@+id/reportIncomplete"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="reportIncomplete"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_alignTop="@+id/reportIncomplete"
 
+        android:layout_toStartOf="@+id/reportIncomplete"
+        android:text="Incomplete :" />
 
-        android:layout_below="@+id/toolbar_main"
-        android:layout_toEndOf="@+id/Incomplete" />
     <TextView
         android:id="@+id/Complete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Complete :"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_alignTop="@+id/reportComplete"
 
-        android:layout_below="@id/reportIncomplete"
-        android:layout_alignParentStart="true"
-        />
+        android:layout_toStartOf="@+id/reportComplete"
+        android:text="Complete :" />
 
     <TextView
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="reportComplete"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
         android:id="@+id/reportComplete"
-        android:layout_below="@+id/Incomplete"
-        android:layout_toEndOf="@+id/Incomplete" />
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reportIncomplete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:gravity="center"
+        android:text="reportComplete"
+        android:textColor="@color/md_green_600" />
 
     <TextView
+        android:id="@+id/reportIncomplete"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reportCancle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="reportIncomple"
+        android:textColor="@color/md_yellow_700" />
+
+    <TextView
+        android:id="@+id/Cancle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cancle :"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:id="@+id/Cancle"
-        android:layout_below="@id/reportComplete"
-        android:layout_alignParentStart="true"
-        />
+
+        android:layout_above="@+id/reportIncomplete"
+        android:layout_alignEnd="@+id/Incomplete"
+        android:text="Cancle :" />
 
     <TextView
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="reportCancle"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
         android:id="@+id/reportCancle"
-        android:layout_below="@+id/reportComplete"
-        android:layout_alignStart="@+id/reportComplete" />
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/reportIncomplete"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="reportCancle"
+        android:textColor="@color/md_red_600" />
+
+    <TextView
+        android:id="@+id/ac1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ac2"
+
+        android:layout_alignTop="@+id/reportCancle"
+        android:text="activity " />
+
+    <TextView
+        android:id="@+id/ac2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ac2"
+
+        android:layout_alignTop="@+id/reportIncomplete"
+        android:text="activity " />
+
+    <TextView
+        android:id="@+id/ac2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/reportComplete"
+
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@+id/reportComplete"
+        android:text="activity " />
+
 
 </RelativeLayout>

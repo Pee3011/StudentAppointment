@@ -15,9 +15,8 @@ import org.w3c.dom.Text;
 
 public class ShowActivity extends BaseActivity {
 
-    private Task     task = null;
+    private Task task = null;
     private ContactTB contactTB;
-    private Status status;
     private LocationsTB locationsTB;
     private TextView titleView;
     private TextView contentView;
@@ -42,12 +41,12 @@ public class ShowActivity extends BaseActivity {
         titleView = (TextView) findViewById(R.id.titleView);
         contentView = (TextView) findViewById(R.id.contentView);
         contactView = (TextView) findViewById(R.id.contactView);
-        time_startView = (TextView)findViewById(R.id.timeStart);
-        time_endView = (TextView)findViewById(R.id.timeEnd);
-        date_startView = (TextView)findViewById(R.id.dateStart);
-        date_endView = (TextView)findViewById(R.id.dateEnd);
-        location=(TextView)findViewById(R.id.location);
-        statusShow=(TextView)findViewById(R.id.statusShow);
+        time_startView = (TextView) findViewById(R.id.timeStart);
+        time_endView = (TextView) findViewById(R.id.timeEnd);
+        date_startView = (TextView) findViewById(R.id.dateStart);
+        date_endView = (TextView) findViewById(R.id.dateEnd);
+        location = (TextView) findViewById(R.id.location);
+        statusShow = (TextView) findViewById(R.id.statusShow);
 
         long id = getIntent().getLongExtra("id", 0);
         setView(id);
@@ -56,15 +55,13 @@ public class ShowActivity extends BaseActivity {
     private void setView(long id) {
         if (id > 0)
             task = Task.load(Task.class, id);
-            contactTB=ContactTB.load(ContactTB.class, id);
-            locationsTB=LocationsTB.load(LocationsTB.class,id);
-            status=Status.load(Status.class,id);
-
+        contactTB = ContactTB.load(ContactTB.class, id);
+        locationsTB = LocationsTB.load(LocationsTB.class, id);
 
         if (task != null) {
             titleView.setText(task.title.activityName);
             contentView.setText(task.content);
-            contactView.setText( task.contact.firstName);
+            contactView.setText(task.contact.firstName);
             time_startView.setText(task.timeStart);
             time_endView.setText(task.timeEnd);
             date_startView.setText(task.dateStart);
@@ -78,8 +75,6 @@ public class ShowActivity extends BaseActivity {
         }
 
     }
-
-
 
 
     @Override
