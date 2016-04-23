@@ -220,7 +220,7 @@
                 android:inputType="time" />
         </android.support.design.widget.TextInputLayout>
 
-        <EditText
+    <!--    <EditText
             android:id="@+id/textchoose"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -228,7 +228,7 @@
             android:ems="10"
 
             android:hint="Status No Select"
-            android:padding="10dp" />
+            android:padding="10dp" />-->
 
         <RelativeLayout
             android:id="@+id/spinStatus"
@@ -255,7 +255,7 @@
 
                 android:prompt="@string/spinner_title" />
 
-            <Button
+           <!-- <Button
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -263,7 +263,7 @@
                 android:layout_gravity="right"
                 android:layout_toEndOf="@+id/status"
                 android:onClick="clickChoose"
-                android:text="Select" />
+                android:text="Select" />-->
 
 
         </RelativeLayout>

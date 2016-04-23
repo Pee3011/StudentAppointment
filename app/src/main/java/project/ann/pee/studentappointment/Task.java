@@ -16,53 +16,47 @@ import java.util.List;
 public class Task extends Model {
 
 
-
-    @Column(name = "title",onUpdate = Column.ForeignKeyAction.CASCADE,onDelete = Column.ForeignKeyAction.CASCADE)
+    @Column(name = "title", onUpdate = Column.ForeignKeyAction.CASCADE, onDelete = Column.ForeignKeyAction.CASCADE)
     public Act title;
 
     @Column(name = "content")
     public String content;
 
-    @Column(name = "contact",onUpdate = Column.ForeignKeyAction.CASCADE,onDelete = Column.ForeignKeyAction.CASCADE)
+    @Column(name = "contact", onUpdate = Column.ForeignKeyAction.CASCADE, onDelete = Column.ForeignKeyAction.CASCADE)
     public ContactTB contact;
 
-    @Column(name = "location",onUpdate = Column.ForeignKeyAction.CASCADE,onDelete = Column.ForeignKeyAction.CASCADE)
+    @Column(name = "location", onUpdate = Column.ForeignKeyAction.CASCADE, onDelete = Column.ForeignKeyAction.CASCADE)
     public LocationsTB location;
 
-    public List<Act> acts(){
-        return getMany(Act.class,"activityName");
+    public List<Act> acts() {
+        return getMany(Act.class, "activityName");
     }
 
 
-    public List<ContactTB> contactTBs(){
+    public List<ContactTB> contactTBs() {
 
         return getMany(ContactTB.class, "firstName");
     }
 
 
-     public List<LocationsTB> locationsTBs(){
-    return getMany(LocationsTB.class,"locationName");
-}
+    public List<LocationsTB> locationsTBs() {
+        return getMany(LocationsTB.class, "locationName");
+    }
 
 
-
-    @Column(name ="timeStart")
+    @Column(name = "timeStart")
     public String timeStart;
 
-    @Column(name = "status" )
-    public int status;
+    @Column(name = "status", onUpdate = Column.ForeignKeyAction.CASCADE, onDelete = Column.ForeignKeyAction.CASCADE)
+    public StatusTB status;
 
-    @Column(name = "statusChar")
-    public String statusChar;
-
-
-    @Column(name="timeEnd")
+    @Column(name = "timeEnd")
     public String timeEnd;
 
-    @Column(name ="dateStart")
+    @Column(name = "dateStart")
     public String dateStart;
 
-    @Column(name="dateEnd")
+    @Column(name = "dateEnd")
     public String dateEnd;
 
     @Column(name = "dueAt", index = true)
@@ -89,20 +83,21 @@ public class Task extends Model {
     public static int countIncomplete() {
         return new Select()
                 .from(Task.class)
-                .where("status = ?",10)
+                .where("status = ?", 1)
                 .count();
     }
 
-    public static int countComplete(){
+    public static int countComplete() {
         return new Select()
                 .from(Task.class)
-                .where("status = ?",8)
+                .where("status = ?", 2)
                 .count();
     }
-    public static int countCancle(){
+
+    public static int countCancle() {
         return new Select()
                 .from(Task.class)
-                .where("status = ?",6)
+                .where("status = ?", 3)
                 .count();
     }
 

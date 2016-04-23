@@ -18,6 +18,7 @@ public class ShowActivity extends BaseActivity {
     private Task task = null;
     private ContactTB contactTB;
     private LocationsTB locationsTB;
+    private StatusTB statusTB;
     private TextView titleView;
     private TextView contentView;
     private TextView contactView;
@@ -57,6 +58,7 @@ public class ShowActivity extends BaseActivity {
             task = Task.load(Task.class, id);
         contactTB = ContactTB.load(ContactTB.class, id);
         locationsTB = LocationsTB.load(LocationsTB.class, id);
+        statusTB = StatusTB.load(StatusTB.class, id);
 
         if (task != null) {
             titleView.setText(task.title.activityName);
@@ -67,7 +69,7 @@ public class ShowActivity extends BaseActivity {
             date_startView.setText(task.dateStart);
             date_endView.setText(task.dateEnd);
             location.setText(task.location.locationName);
-            statusShow.setText(task.statusChar);
+            statusShow.setText(task.status.statusName);
 
 
         } else {

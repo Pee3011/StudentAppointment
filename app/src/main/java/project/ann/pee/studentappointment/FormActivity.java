@@ -51,25 +51,23 @@ public class FormActivity extends BaseActivity implements OnClickListener {
 
 
     private Task task = null;
-    private Spinner titleEdit;
-    private EditText contentEdit;
     private ContactTB contactTB;
 
+    private EditText fromDateEtxt;
+    private EditText toDateEtxt;
+    private EditText fromTime;
+    private EditText toTime;
+    private EditText contentEdit;
     private EditText time_StarEdit;
     private EditText time_EndEdit;
     private EditText date_startEdit;
     private EditText date_endEdit;
+
     private Spinner location;
+    private Spinner spinner;
+    private Spinner titleEdit;
+    private Spinner spn;
 
-
-    private EditText tx;
-
-
-    private EditText fromDateEtxt;
-    private EditText toDateEtxt;
-
-    private EditText fromTime;
-    private EditText toTime;
 
     private int mHour;
     private int mMinute;
@@ -77,6 +75,7 @@ public class FormActivity extends BaseActivity implements OnClickListener {
     private ArrayList<ContactTB> contactTBs;
     private ArrayList<Act> acts;
     private ArrayList<LocationsTB> locats;
+    private ArrayList<StatusTB> statusTBs;
     private DatePickerDialog fromDatePickerDialog;
     private DatePickerDialog toDatePickerDialog;
 
@@ -84,44 +83,16 @@ public class FormActivity extends BaseActivity implements OnClickListener {
     private TimePickerDialog toTimePickerDialog;
 
     private SimpleDateFormat dateFormatter;
-    private Spinner spinner;
-    private String[] str;
-    private String choosed;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form);
         setDrawer(true);
-
-        Spinner spn = (Spinner) findViewById(R.id.status);
-
-        str = getResources().getStringArray(R.array.statusar);
-        ArrayAdapter<String> objAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, str);
-        objAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spn.setAdapter(objAdapter);
-        spn.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int i, long id) {
-                choosed = str[i];
-            }
-
-            public void onNothingSelected(AdapterView<?> arg0) {
-                choosed = str[0];
-            }
-
-        });
-
-
         dateFormatter = new SimpleDateFormat("dd-MM-yyyy", Locale.US);
-
         findViewsById();
-
         setDateTimeField();
-
         setView();
-
 
         ImageButton add_title = (ImageButton) findViewById(R.id.add_title);
         add_title.setOnClickListener(new OnClickListener() {
@@ -142,7 +113,6 @@ public class FormActivity extends BaseActivity implements OnClickListener {
         });
 
         ImageButton add_location = (ImageButton) findViewById(R.id.add_location);
-
         add_location.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -151,8 +121,7 @@ public class FormActivity extends BaseActivity implements OnClickListener {
             }
         });
 
-
-        tx = (EditText) findViewById(R.id.textchoose);
+        spn = (Spinner) findViewById(R.id.status);
         spinner = (Spinner) findViewById(R.id.spinner);
         titleEdit = (Spinner) findViewById(R.id.titleEdit);
         location = (Spinner) findViewById(R.id.locationEdit);
@@ -176,9 +145,12 @@ public class FormActivity extends BaseActivity implements OnClickListener {
                 time_EndEdit.setText(task.timeEnd);
                 date_startEdit.setText(task.dateStart);
                 date_endEdit.setText(task.dateEnd);
-                tx.setText(task.statusChar);
+
                 int spinnerPosition = task.contact.getId().intValue() - 1;
                 spinner.setSelection(spinnerPosition);
+
+                int spinnerPosition4 = task.status.getId().intValue() - 1;
+                spn.setSelection(spinnerPosition4);
 
 
                 int spinnerPosition1 = task.title.getId().intValue() - 1;
@@ -192,11 +164,6 @@ public class FormActivity extends BaseActivity implements OnClickListener {
                 finish();
             }
         }
-    }
-
-
-    public void clickChoose(View view) {
-        tx.setText(choosed);
     }
 
     @Override
@@ -328,10 +295,7 @@ public class FormActivity extends BaseActivity implements OnClickListener {
         if (date_startEdit.getText().length() > 0) {
             if (task == null)
                 task = new Task();
-
-
-            task.statusChar = tx.getText().toString();
-            task.status = tx.getText().length();
+            task.status = (StatusTB) spn.getSelectedItem();
             task.title = (Act) titleEdit.getSelectedItem();
             task.content = contentEdit.getText().toString();
             task.contact = (ContactTB) spinner.getSelectedItem();
@@ -390,6 +354,10 @@ public class FormActivity extends BaseActivity implements OnClickListener {
         sp2.setOnItemSelectedListener(new LocationAdapter(this, locats));
         locats = new ArrayList<>(LocationsTB.getAll());
 
+        Spinner sp3 = (Spinner) findViewById(R.id.status);
+        sp3.setOnItemSelectedListener(new StatusAdapter(this, statusTBs));
+        statusTBs = new ArrayList<>(StatusTB.getAll());
+
 
         sp.setAdapter(new ContactTBAdapter(this, contactTBs));
         ArrayAdapter<ContactTB> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, contactTBs);
@@ -404,6 +372,9 @@ public class FormActivity extends BaseActivity implements OnClickListener {
         ArrayAdapter<LocationsTB> adapter2 = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, locats);
         adapter2.setDropDownViewResource(android.R.layout.simple_spinner_item);
 
+        sp3.setAdapter(new StatusAdapter(this, statusTBs));
+        ArrayAdapter<StatusTB> adapter3 = new ArrayAdapter<StatusTB>(this, android.R.layout.simple_spinner_item, statusTBs);
+        adapter3.setDropDownViewResource(android.R.layout.simple_spinner_item);
 
     }
 
@@ -523,6 +494,47 @@ public class FormActivity extends BaseActivity implements OnClickListener {
         @Override
         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
+
+        }
+
+        @Override
+        public void onNothingSelected(AdapterView<?> parent) {
+
+        }
+    }
+
+    private class StatusAdapter extends ArrayAdapter<StatusTB> implements OnItemSelectedListener {
+        public StatusAdapter(Context context, ArrayList<StatusTB> statusTBs) {
+            super(context, R.layout.support_simple_spinner_dropdown_item, statusTBs);
+        }
+
+        @Override
+        public View getDropDownView(int position, View convertView, ViewGroup parent) {
+            StatusTB statusTB = getItem(position);
+            if (convertView == null) {
+                convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_spinner_dropdown_item, parent, false);
+            }
+            TextView sp1 = (TextView) convertView.findViewById(android.R.id.text1);
+            sp1.setText(statusTB.statusName);
+
+            return convertView;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            StatusTB statusTB = getItem(position);
+            if (convertView == null) {
+                convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_spinner_item, parent, false);
+            }
+            TextView sp1 = (TextView) convertView.findViewById(android.R.id.text1);
+            sp1.setText(statusTB.statusName);
+
+            return convertView;
+        }
+
+
+        @Override
+        public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
         }
 

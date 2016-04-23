@@ -47,7 +47,7 @@
             android:value="1" />
         <meta-data
             android:name="AA_MODELS"
-            android:value="project.ann.pee.studentappointment.Task, project.ann.pee.studentappointment.Act,         project.ann.pee.studentappointment.LocationsTB,project.ann.pee.studentappointment.ContactTB" />
+            android:value="project.ann.pee.studentappointment.Task, project.ann.pee.studentappointment.Act,         project.ann.pee.studentappointment.LocationsTB,project.ann.pee.studentappointment.ContactTB,project.ann.pee.studentappointment.StatusTB" />
     </application>
 
 </manifest>

@@ -18,6 +18,7 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/imageView" />
   <TextView
+      android:id="@+id/Version"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="@string/version"
@@ -25,11 +26,9 @@
       android:layout_centerHorizontal="true" />
     <TextView
       android:layout_width="250dp"
-      android:layout_height="wrap_content"
+      android:layout_height="match_parent"
       android:text="@string/about"
-      android:layout_alignParentBottom="true"
-      android:layout_centerHorizontal="true"
-      android:layout_marginBottom="208dp"
-      android:id="@+id/textView3" />
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView3" android:layout_below="@id/Version"/>
 
 </RelativeLayout>

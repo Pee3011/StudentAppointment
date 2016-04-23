@@ -9,37 +9,43 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListActivity"
+        <activity
+            android:name=".ListActivity"
             android:label="@string/app_name"
             android:uiOptions="splitActionBarWhenNarrow">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
 
         </activity>
         <activity android:name=".ShowActivity" />
-        <activity android:name=".FormActDefault"/>
-        <activity android:name=".FormActivity"/>
-        <activity android:name=".FormLocationDefault"/>
-        <activity android:name=".FormContactDefault"/>
-        <activity android:name=".ActList"/>
-        <activity android:name=".ShowAct"/>
-        <activity android:name=".LocationList"/>
-        <activity android:name=".ShowLocation"/>
-        <activity android:name=".ShowContact"/>
-        <activity android:name=".ContactList"/>
-        <activity android:name=".Report1"/>
-        <activity android:name=".AboutUs"/>
+        <activity android:name=".FormActDefault" />
+        <activity android:name=".FormActivity" />
+        <activity android:name=".FormLocationDefault" />
+        <activity android:name=".FormContactDefault" />
+        <activity android:name=".ActList" />
+        <activity android:name=".ShowAct" />
+        <activity android:name=".LocationList" />
+        <activity android:name=".ShowLocation" />
+        <activity android:name=".ShowContact" />
+        <activity android:name=".ContactList" />
+        <activity android:name=".Report1" />
+        <activity android:name=".AboutUs" />
 
 
-
-        <meta-data android:name="AA_DB_NAME" android:value="SA.db" />
-        <meta-data android:name="AA_DB_VERSION" android:value="1" />
-        <meta-data android:name="AA_MODELS" android:value="project.ann.pee.studentappointment.Task, project.ann.pee.studentappointment.Act,
-        project.ann.pee.studentappointment.LocationsTB,project.ann.pee.studentappointment.ContactTB"       />
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="SA.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="project.ann.pee.studentappointment.Task, project.ann.pee.studentappointment.Act,
+        project.ann.pee.studentappointment.LocationsTB,project.ann.pee.studentappointment.ContactTB,project.ann.pee.studentappointment.StatusTB" />
 
     </application>
 

@@ -11,3 +11,7 @@ insert into Act(activityName) values("พบอาจารย์");
 
 insert into Location(locationName) values("Nothing");
 insert into Contact(firstName) values("Nothing");
+
+insert into StatusTBs(statusName) values("Incomplete")
+insert into StatusTBs(statusName) values("Complete")
+insert into StatusTBs(statusName) values("Cancel")
