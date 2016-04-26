@@ -59,7 +59,7 @@
 
         android:layout_above="@+id/reportIncomplete"
         android:layout_alignEnd="@+id/Incomplete"
-        android:text="Cancle :" />
+        android:text="Cancel :" />
 
     <TextView
         android:id="@+id/reportCancle"
